@@ -1,0 +1,260 @@
+{
+  "_config":{
+    "siteurl":""
+  },
+  "_Seo":{
+    "title":"训练计划首页",
+    "keywords":"卡路里",
+    "description":"卡路里"
+  },
+  "_User":{
+    "uid":"123456",
+    "username":"stephen"
+  },
+  "tree": {
+    "fa": {
+      "id": "",
+      "name": ""
+    },
+    "child": {
+      "id": "",
+      "name": ""
+    }
+  },
+  "navs":[{
+      "id": "0",
+      "name": "最新",
+      "url":"/"
+    }, {
+      "id": "1",
+      "name": "增肌",
+      "url":"/plan/page/list?category=0"
+    }, {
+      "id": "2",
+      "name": "减脂",
+      "url":"/plan/page/list?category=1"
+    }, {
+      "id": "3",
+      "name": "塑形",
+      "url":"/plan/page/list?category=2"
+    }, {
+      "id": "4",
+      "name": "局部",
+      "url":"/plan/page/list?category=3"
+    }, {
+      "id": "5",
+      "name": "励志",
+      "url":"/plan/page/list?category=4"
+    }],
+  "_floors":{
+    "zengji": {
+      "name": "增肌",
+      "urlid":"2",
+      "item_data": [
+        {
+          "id": "11",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "6A Fitness Lab男女通用塑形训练计划",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "12",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "Girl fitness减脂塑身计划第42季",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "13",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "Girl fitness减脂塑身计划第42季",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "14",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "Girl fitness减脂塑身计划第42季",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "15",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        }
+      ]
+    },
+    "jianzhi": {
+      "name": "减脂",
+      "urlid":"2",
+      "item_data": [
+        {
+          "id": "21",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "22",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "23",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "24",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "25",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        }
+      ]
+    },
+    "suxing": {
+      "name": "塑形",
+      "urlid":"2",
+      "item_data": [
+        {
+          "id": "31",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "32",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "33",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "34",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "35",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        }
+      ]
+    },
+    "jubu": {
+      "name": "局部",
+      "urlid":"2",
+      "item_data": [
+        {
+          "id": "41",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "42",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "43",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "34",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "35",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        }
+      ]
+    },
+    "lizhi": {
+      "name": "励志",
+      "urlid":"2",
+      "item_data": [
+        {
+          "id": "31",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "32",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "33",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "34",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        },
+        {
+          "id": "35",
+          "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg",
+          "summary": "feeder workout隔日刺激目标肌群一位Fittimer的12周transformation",
+          "time": "6小时前",
+          "url": "www.kaluli.com"
+        }
+      ]
+    }
+  },
+  "adviertisement":[{
+    "url": "www.baidu.com",
+    "pic": "http://shihuo.hupucdn.com/kaluli_index/201605/3016/a970c262f8b19dcef0638e3fcca736a7.jpg"
+  }]
+}

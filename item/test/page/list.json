@@ -1,0 +1,178 @@
+{
+    "_Config": {
+        "title": "卡路里－专业运动营养平台",
+        "keywords": "卡路里,卡路里商城,保健品,运动保健品",
+        "description": "卡路里运动保健品商城是一家提供专业的、针对运动特征定制化的保健品商城，包括运动基础蛋白、运动饮料、运动保护、恢复体能等运动保健品，品种丰富，任您跟需选择。",
+        "domain_image": "http://c1.hoopchina.com.cn/fis_static/kalulimobile",
+        "login_url": "http://passport.hupu.com/m/2?from=m&project=kaluli&appid=10039",
+        "reg_url": "http://passport.hupu.com/m/2/index/register?from=m&project=kaluli&appid=10039",
+        "logout_url": "http://passport.hupu.com/m/2/logout?appid=10039"
+    },
+    "_User": {
+        "uid": "16605861",
+        "username": "sxqwade"
+    },
+    "aIds": "all",
+    "isMarketing": true,
+    "banner":"http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0523/df749703210295ea222c98ce1008dccb.jpg",
+    "choosed_where": {
+        "scheme": "能量饮品",
+        "aIds": "all"
+    },
+    "activity_title": "满500减50",
+    "tabMarketingUrl":"/kalulimobile_dev.php/product?type=0&brand=0&scheme=%E5%A2%9E%E8%82%8C%E5%BF%85%E5%A4%87&price=&order=&aIds=all",
+    "products": [
+        {
+            "id": "66",
+            "title": "美瑞克斯 超大容量饮水杯 700毫升",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1911/d2912c26415d770e9b910c5120208912.jpg",
+            "sell_point": "轻松摇一摇，肌肉就出来",
+            "discount_price": "35.00",
+            "price": "49.00",
+            "intro": "MET-RX 美瑞克斯饮水杯 700毫升"
+        },
+        {
+            "id": "67",
+            "title": "美瑞克斯 超大容量饮水杯 700毫升",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1911/d2912c26415d770e9b910c5120208912.jpg",
+            "sell_point": "轻松摇一摇，肌肉就出来",
+            "discount_price": "35.00",
+            "price": "49.00",
+            "intro": "MET-RX 美瑞克斯饮水杯 700毫升"
+        },
+        {
+            "id": "68",
+            "title": "美瑞克斯 超大容量饮水杯 700毫升",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1911/d2912c26415d770e9b910c5120208912.jpg",
+            "sell_point": "轻松摇一摇，肌肉就出来",
+            "discount_price": "35.00",
+            "price": "49.00",
+            "intro": "MET-RX 美瑞克斯饮水杯 700毫升"
+        },
+        {
+            "id": "66",
+            "title": "美瑞克斯 超大容量饮水杯 700毫升",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1911/d2912c26415d770e9b910c5120208912.jpg",
+            "sell_point": "轻松摇一摇，肌肉就出来",
+            "discount_price": "35.00",
+            "price": "49.00",
+            "intro": "MET-RX 美瑞克斯饮水杯 700毫升"
+        },
+        {
+            "id": "69",
+            "title": "美瑞克斯 超大容量饮水杯 700毫升",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1911/d2912c26415d770e9b910c5120208912.jpg",
+            "sell_point": "轻松摇一摇，肌肉就出来",
+            "discount_price": "35.00",
+            "price": "49.00",
+            "intro": "MET-RX 美瑞克斯饮水杯 700毫升"
+        },
+        {
+            "id": "66",
+            "title": "美瑞克斯 超大容量饮水杯 700毫升",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1911/d2912c26415d770e9b910c5120208912.jpg",
+            "sell_point": "轻松摇一摇，肌肉就出来",
+            "discount_price": "35.00",
+            "price": "49.00",
+            "intro": "MET-RX 美瑞克斯饮水杯 700毫升"
+        },
+        {
+            "id": "66",
+            "title": "美瑞克斯 超大容量饮水杯 700毫升",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1911/d2912c26415d770e9b910c5120208912.jpg",
+            "sell_point": "轻松摇一摇，肌肉就出来",
+            "discount_price": "35.00",
+            "price": "49.00",
+            "intro": "MET-RX 美瑞克斯饮水杯 700毫升"
+        },
+        {
+            "id": "66",
+            "title": "美瑞克斯 超大容量饮水杯 700毫升",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1911/d2912c26415d770e9b910c5120208912.jpg",
+            "sell_point": "轻松摇一摇，肌肉就出来",
+            "discount_price": "35.00",
+            "price": "49.00",
+            "intro": "MET-RX 美瑞克斯饮水杯 700毫升"
+        }
+
+    ],
+    "filter": {
+        "scheme": {
+            "name": "解决方案",
+            "dace": "plan",
+            "data": [
+                "肌肉健美",
+                "训练肌肉",
+                "营养补充",
+                "练后补充"
+            ],
+            "url": [
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-训练肌肉?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-营养补充?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-练后补充?price=100%E4%BB%A5%E4%B8%8B"
+            ],
+            "default_url": "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉?price=100%E4%BB%A5%E4%B8%8B",
+            "current": "解决方案",
+            "init":1
+        },
+        "brand": {
+            "name": "品　　牌",
+            "dace": "brand",
+            "data": [
+                "肌肉科技",
+                "美瑞克斯",
+                "普丽普莱",
+                "康比特",
+                "BSN",
+                "Ubervita",
+                "Schiff",
+                "OPTIMUN",
+                "Clif Bar",
+                "nutrex ",
+                "Osteo",
+                "Now Foods",
+                "NatureWise",
+                "MP",
+                "Grenade"
+            ],
+            "url": [
+                "http://m.kaluli.com/product/p-%25E8%2582%258C%25E8%2582%2589%25E7%25A7%2591%25E6%258A%2580-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-%25E6%2599%25AE%25E4%25B8%25BD%25E6%2599%25AE%25E8%258E%25B1-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-%25E5%25BA%25B7%25E6%25AF%2594%25E7%2589%25B9-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-BSN-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-Ubervita-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-Schiff-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-OPTIMUN-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-Clif%2BBar-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-nutrex%2B-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-Osteo-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-Now%2BFoods-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-NatureWise-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-MP-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-Grenade-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B"
+            ],
+            "defalut_url": "http://m.kaluli.com/product/p-0-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+            "current": "美瑞克斯"            
+        },
+        "price": {
+            "name": "价　　格",
+            "dace": "price",
+            "data": [
+                "100以下",
+                "100-299",
+                "300-499",
+                "500-999"
+            ],
+            "url": [
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-肌肉健美?price=100%E4%BB%A5%E4%B8%8B",
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-肌肉健美?price=100-299",
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-肌肉健美?price=300-499",
+                "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-肌肉健美?price=500-999"
+            ],
+            "defalut_url": "http://m.kaluli.com/product/p-%25E7%25BE%258E%25E7%2591%259E%25E5%2585%258B%25E6%2596%25AF-氨基酸粉-肌肉健美",
+            "current": "100以下"
+        }
+    }
+}

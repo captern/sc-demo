@@ -1,0 +1,27 @@
+.about-us{
+    width: 100%;
+    background-color:#FFFFFF;
+    .menuwrap{
+        height: 4.25rem;
+    }
+    .menu{        
+        width: 100%;
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #999999;
+        height: 4.25rem;
+        li{
+            width: 25%;
+            float: left;
+            height: 4rem;
+            overflow: hidden;
+            img{
+                width: 80%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    } 
+    .pagecontent img{
+        width: 100%;
+    }
+}

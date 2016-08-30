@@ -1,0 +1,25 @@
+{
+  "_config":{
+    "siteurl":""
+  },
+  "_Seo":{
+    "title":"训练计划列表",
+    "keywords":"卡路里",
+    "description":"卡路里"
+  },
+  "_User":{
+    "uid":"123456",
+    "username":"stephen"
+  },
+  "tree": {
+    "fa": {
+      "id": "17",
+      "name": "增肌"
+    },
+    "child": {
+      "id": "",
+      "name": ""
+    }
+  }
+}
+

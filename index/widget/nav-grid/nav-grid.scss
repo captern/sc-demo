@@ -1,0 +1,94 @@
+@import "/static/sass/sassCore/base";
+.nav-grid{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    li{
+        width: 25%;
+        float: left;
+        height: 4.5rem;
+        a{
+            display: block;
+            text-align:center;
+            color:#999999;
+            height: 4.5rem;
+            &:before{
+                width: 2.25rem;
+                height: 2.25rem;
+                display: inline-block;
+                vertical-align: middle;
+                content:"";
+                margin: 0.625rem auto 0.375rem;
+                @include background-size(contain);
+                background-repeat:no-repeat;
+                background-color: transparent;
+            }
+            span{
+                display: inline-block;
+                width: 100%;
+                font-size: 0.6rem;
+                line-height: 0.9rem;
+                vertical-align: top;
+            }
+        }
+        &:first-child{
+            a{
+                &:before{
+                    background-image:url(nav-icon-new-1.png);                    
+                }       
+            }                
+        }
+        &:nth-child(2){
+            a{
+                &:before{
+                    background-image:url(nav-icon-new-2.png);                    
+                }       
+            }
+                 
+        }
+        &:nth-child(3){
+            a{
+                &:before{
+                    background-image:url(nav-icon-new-3.png);                    
+                }       
+            }
+                 
+        }
+        &:nth-child(4){
+            a{
+                &:before{
+                    background-image:url(nav-icon-new-4.png);                    
+                }       
+            }
+        }
+        &:nth-child(5){
+            a{
+                &:before{
+                    background-image:url(nav-icon-new-5.png);                    
+                }       
+            }
+        }
+        &:nth-child(6){
+            a{
+                &:before{
+                    background-image:url(nav-icon-new-6.png);                    
+                }       
+            }
+        }
+        &:nth-child(7){
+            a{
+                &:before{
+                    background-image:url(nav-icon-new-7.png);                    
+                }       
+            }
+        }
+        &:nth-child(8){
+            a{
+                &:before{
+                    background-image:url(nav-icon-new-8.png);                    
+                }       
+            }
+        }
+    }
+}

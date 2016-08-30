@@ -1,0 +1,280 @@
+{
+    "_Config": {
+        "title": "卡路里－专业运动营养平台",
+        "keywords": "卡路里,卡路里商城,保健品,运动保健品",
+        "description": "卡路里运动保健品商城是一家提供专业的、针对运动特征定制化的保健品商城，包括运动基础蛋白、运动饮料、运动保护、恢复体能等运动保健品，品种丰富，任您跟需选择。",
+        "domain_image": "http://c1.hoopchina.com.cn/fis_static/kalulimobile"
+    },
+    "_User": {
+        "uid": "21306089",
+        "username": "过往云烟最帅"
+    },
+    "address": {
+        "id": "180",
+        "hupu_uid": "21306089",
+        "hupu_username": "过往云烟最帅",
+        "name": "朱超",
+        "postcode": "445555",
+        "province": "4",
+        "city": "56",
+        "area": "550",
+        "mobile": "13861801111",
+        "phonesection": "",
+        "phonecode": "",
+        "phoneext": "",
+        "region": "福建 宁德 福鼎市",
+        "street": "成都市武侯区369号黑土花园",
+        "identity_number": "372930199210100012",
+        "defaultflag": "1",
+        "created_at": "2015-02-09 18:14:26",
+        "updated_at": "2015-07-23 15:57:36"
+    },
+    "$defaultFlag": "180",
+    "cartList": {
+        "10": [{
+            "id": "616",
+            "number": "1",
+            "goods_id": "117",
+            "product_id": "56",
+            "price": "72.00",
+            "total_price": 72,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/fc5784f062b673a0822827de42c143c9.jpg?imageView2/1/w/100/h/100",
+            "total_num": "38",
+            "title": "普丽普莱 蓝莓营养胶囊",
+            "storehouse_id": "10",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "375 mg*100粒"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "10",
+                "name": "香港仓",
+                "code": "",
+                "address": "",
+                "note": "",
+                "create_date": "0000-00-00 00:00:00",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "",
+                "area_name": "xg",
+                "freight_type": "2",
+                "created_at": "2015-12-08 14:42:51",
+                "updated_at": "2015-12-11 11:46:54"
+            }
+        }],
+        "11": [{
+            "id": "615",
+            "number": "1",
+            "goods_id": "136",
+            "product_id": "58",
+            "price": "2.00",
+            "total_price": 2,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/304d55ad62c352da83f120137b50c24e.jpg?imageView2/1/w/100/h/100",
+            "total_num": "10013",
+            "title": "普丽普莱 紫锥菊提取物胶囊",
+            "storehouse_id": "11",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "400mg*100片"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "11",
+                "name": "郑州保税仓",
+                "code": "",
+                "address": "",
+                "note": "",
+                "create_date": "0000-00-00 00:00:00",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "",
+                "area_name": "zzbs",
+                "freight_type": "2",
+                "created_at": "2015-12-08 14:43:17",
+                "updated_at": "2015-12-11 11:47:05"
+            }
+        }],
+        "1": [{
+            "id": "614",
+            "number": "1",
+            "goods_id": "160",
+            "product_id": "76",
+            "price": "1.00",
+            "total_price": 1,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg?imageView2/1/w/100/h/100",
+            "total_num": "99890",
+            "title": "手榴弹減脂精英胶囊33",
+            "storehouse_id": "1",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "100粒"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "1",
+                "name": "上海发货",
+                "code": "KLLOO1",
+                "address": "",
+                "note": "全场圆通包邮 / 加20元享顺丰快递，并可获30元无限制优惠券",
+                "create_date": "2015-05-08 15:35:50",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "销售仓",
+                "area_name": "sh",
+                "freight_type": "1",
+                "created_at": "2015-09-06 19:35:06",
+                "updated_at": "2015-12-11 11:46:42"
+            }
+        }]
+    },
+    "totalData": {
+        "total_count": 3,
+        "total_price": 74.7,
+        "original_price": 75,
+        "total_product_price": 75,
+        "freight": 0,
+        "yuantong_freight": 0,
+        "shunfeng_freight": 8,
+        "total_weight": 1,
+        "activity": {
+            "activity": {
+                "2": {
+                    "list": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "flag": true,
+                        "collectFlag": false
+                    }],
+                    "activity_save": 0.3,
+                    "collectFlag": false
+                }
+            },
+            "goods_info": {
+                "117": {
+                    "product_id": "56",
+                    "goods_id": "117",
+                    "number": "1",
+                    "price": 72,
+                    "activity": []
+                },
+                "136": {
+                    "product_id": "58",
+                    "goods_id": "136",
+                    "number": "1",
+                    "price": 2,
+                    "activity": []
+                },
+                "160": {
+                    "product_id": "76",
+                    "goods_id": "160",
+                    "number": "1",
+                    "price": 1,
+                    "activity": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "flag": true,
+                        "collectFlag": false
+                    }],
+                    "kaluli_proportion_price": 0.7,
+                    "marketing_fee": 0.3,
+                    "dis_price": 0.7,
+                    "collectFlag": false
+                }
+            },
+            "activity_save": 0.3
+        }
+    },
+    "cart_data": "159,160",
+    "lipinka":[{
+        "id":"123",
+        "card_limit":"",
+        "card_limit_parse":{
+            "order_money":"300"
+        },
+        "amount":"10",
+        "etime":"1512025417",
+        "flag":true
+    },{
+        "id":"123",
+        "card_limit":"asdasd",
+        "card_limit_parse":{
+            "order_money":"300"
+        },
+        "amount":"10",
+        "etime":"1512025417",
+        "flag":true
+    },{
+        "id":"123",
+        "card_limit":"asdasd",
+        "card_limit_parse":{
+            "order_money":"500"
+        },
+        "amount":"10",
+        "etime":"1512025417",
+        "flag":true
+    }],
+    "neworderitem":{
+        "sku":{
+            "id":"18",
+            "item_id":"7",
+            "code":"dddd",
+            "attr":{
+                "attr":{
+                    "颜色":"白色"
+                }
+            },
+            "ware_sku":"",
+            "price":"960.00",
+            "discount_price":"558.00",
+            "weight":"1",
+            "pic":"",
+            "total_num":"11",
+            "lock_num":"111",
+            "storehouse_id":"1",
+            "status":"0",
+            "wupdate_time":"0"
+        },
+        "item":{
+            "id":"7",
+            "title":"肌肉科技白金酪蛋白增肌粉3.75磅",
+            "pic":"http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0309/e557a485c5ff029c0e8ca4da24190177.jpg",
+            "brand_id":"2",
+            "sell_point":"健身增肌，更美味，更高溶解度",
+            "intro":"健身增肌，更美味，更高溶解度",
+            "price":"960.00",
+            "discount_price":"558.00",
+            "hits":"1146",
+            "status":"3",
+            "created_at":"2015-06-03 09:53:38",
+            "updated_at":"2015-12-25 15:39:36",
+            "content":""
+        }
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "address": {
+        "id": "180",
+        "hupu_uid": "21306089",
+        "hupu_username": "过往云烟最帅",
+        "name": "朱超",
+        "postcode": "445555",
+        "province": "4",
+        "city": "56",
+        "area": "550",
+        "mobile": "13861801111",
+        "phonesection": "",
+        "phonecode": "",
+        "phoneext": "",
+        "region": "福建 宁德 福鼎市",
+        "street": "成都市武侯区369号黑土花园",
+        "identity_number": "372930199210100012",
+        "defaultflag": "1",
+        "created_at": "2015-02-09 18:14:26",
+        "updated_at": "2015-07-23 15:57:36"
+    },
+    "item": {
+        "id": "616",
+        "number": "1",
+        "goods_id": "117",
+        "product_id": "56",
+        "price": "72.00",
+        "total_price": 72,
+        "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/fc5784f062b673a0822827de42c143c9.jpg?imageView2/1/w/100/h/100",
+        "total_num": "38",
+        "title": "普丽普莱 蓝莓营养胶囊",
+        "storehouse_id": "10",
+        "weight": "1",
+        "attr": {
+            "规格": "375 mg*100粒"
+        },
+        "status": 0,
+        "stock_status": 0,
+        "ware": {
+            "id": "10",
+            "name": "香港仓",
+            "code": "",
+            "address": "",
+            "note": "",
+            "create_date": "0000-00-00 00:00:00",
+            "contact_name": "",
+            "contact_phone": "",
+            "contact_mobile": "",
+            "type_name": "",
+            "area_name": "xg",
+            "freight_type": "2",
+            "created_at": "2015-12-08 14:42:51",
+            "updated_at": "2015-12-11 11:46:54"
+        }
+    },
+    "express": {
+        "number": 1,
+        "price": "2.00",
+        "original_price":"100",
+        "product_price": 2,
+        "express_fee": 0,
+        "yuantong_freight": 0,
+        "shunfeng_freight": 0,
+        "total_price": 2,
+        "stock": "10013",
+        "activity": {
+            "activity": [],
+            "goods_info": [],
+            "activity_save": 20
+        },
+        "ware": {
+            "id": "11",
+            "name": "郑州保税仓",
+            "code": "",
+            "address": "",
+            "note": "",
+            "create_date": "0000-00-00 00:00:00",
+            "contact_name": "",
+            "contact_phone": "",
+            "contact_mobile": "",
+            "type_name": "",
+            "area_name": "xg",
+            "freight_type": "2",
+            "created_at": "2015-12-08 14:43:17",
+            "updated_at": "2015-12-11 11:47:05"
+        }
+    },
+    "lipinka":[{
+        "id":"123",
+        "card_limit":"",
+        "card_limit_parse":{
+            "order_money":"300"
+        },
+        "amount":"10",
+        "etime":"1512025417",
+        "flag":true
+    },{
+        "id":"123",
+        "card_limit":"asdasd",
+        "card_limit_parse":{
+            "order_money":"300"
+        },
+        "amount":"10",
+        "etime":"1512025417",
+        "flag":false
+    },{
+        "id":"123",
+        "card_limit":"asdasd",
+        "card_limit_parse":{
+            "order_money":"500"
+        },
+        "amount":"10",
+        "etime":"1512025417",
+        "flag":false
+    },{
+        "id":"123",
+        "card_limit":"asdasd",
+        "card_limit_parse":{
+            "order_money":"500"
+        },
+        "amount":"10",
+        "etime":"1512025417",
+        "flag":false
+    }],
+    "neworderitem":{
+        "sku":{
+            "id":"18",
+            "item_id":"7",
+            "code":"dddd",
+            "attr":{
+                "attr":{
+                    "颜色":"白色"
+                }
+            },
+            "ware_sku":"",
+            "price":"960.00",
+            "discount_price":"558.00",
+            "weight":"1",
+            "pic":"",
+            "total_num":"11",
+            "lock_num":"111",
+            "storehouse_id":"1",
+            "status":"0",
+            "wupdate_time":"0"
+        },
+        "item":{
+            "id":"7",
+            "title":"肌肉科技白金酪蛋白增肌粉3.75磅",
+            "pic":"http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0309/e557a485c5ff029c0e8ca4da24190177.jpg",
+            "brand_id":"2",
+            "sell_point":"健身增肌，更美味，更高溶解度",
+            "intro":"健身增肌，更美味，更高溶解度",
+            "price":"960.00",
+            "discount_price":"558.00",
+            "hits":"1146",
+            "status":"3",
+            "created_at":"2015-06-03 09:53:38",
+            "updated_at":"2015-12-25 15:39:36",
+            "content":""
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "_Config": {
+        "title": "卡路里－专业运动营养平台",
+        "keywords": "卡路里,卡路里商城,保健品,运动保健品",
+        "description": "卡路里运动保健品商城是一家提供专业的、针对运动特征定制化的保健品商城，包括运动基础蛋白、运动饮料、运动保护、恢复体能等运动保健品，品种丰富，任您跟需选择。",
+        "domain_image": "http://c1.hoopchina.com.cn/fis_static/kalulimobile",
+        "login_url": "http://passport.hupu.com/m/2?from=m&project=kaluli&appid=10039",
+        "reg_url": "http://passport.hupu.com/m/2/index/register?from=m&project=kaluli&appid=10039",
+        "logout_url": "http://passport.hupu.com/m/2/logout?appid=10039"
+    },
+    "_User": {
+        "uid": "16605861",
+        "username": "sxqwade"
+    },
+    "order": {
+        "mainOrder": {
+            "id": "354",
+            "order_number": "1508108963786049",
+            "hupu_uid": "16605861",
+            "hupu_username": "sxqwade",
+            "express_fee": "0.00",
+            "total_price": "389.00",
+            "original_price": "389.00",
+            "coupon_fee": "0.00",
+            "number": "1",
+            "order_time": "2015-08-10 14:53:57",
+            "pay_time": null,
+            "refund": null,
+            "status": "4",
+            "remark": "",
+            "address_attr": {
+                "name": "sxqqqq",
+                "postcode": "200431",
+                "province": "北京",
+                "city": "北京",
+                "area": "宣武区",
+                "mobile": "15026751912",
+                "region": "北京 北京 宣武区 ",
+                "street": "123123123123",
+                "identity_number": "310113199002022192"
+            }
+        },
+        "order": {
+            "1": [{
+                "id": "496",
+                "title": "Grenade 手榴弹減脂精英胶囊",
+                "order_number": "1508108963786049",
+                "product_id": "76",
+                "goods_id": "160",
+                "domestic_express_type": "圆通",
+                "domestic_order_number": "600094897906",
+                "domestic_express_time": "1438740443",
+                "depot_type": "1",
+                "express_fee": "0.00",
+                "total_price": "389.00",
+                "price": "389.00",
+                "number": "1",
+                "status": "8",
+                "pay_status": "0",
+                "format_status": "订单取消",
+                "order_time": "2015-08-10 14:53:57",
+                "receive_time": null,
+                "is_comment": "0",
+                "attr": {
+                    "规格": "100粒"
+                },
+                "img": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg",
+                "refund_price": null,
+                "refund_express_fee": null,
+                "refund": null,
+                "comment_url":"sdafd"
+            }]
+        },
+        "pay_status": {
+            "1": [
+                "0"
+            ]
+        },
+        "status": {
+            "1": [
+                "8"
+            ]
+        }
+    }
+}

@@ -1,0 +1,77 @@
+@import '../sass/sassCore/base';
+.fullscreen{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .scrollwrapper{
+        width: 100%; 
+    }
+}
+.index-wrap{
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    position: relative;    
+}
+
+.index-wrap{
+    padding-bottom:2.9rem;
+}
+//.freebies-fixed{
+//    width: 3.175rem;
+//    height: 4.1rem;
+//    position: fixed;
+//    right: -3.2rem;
+//    top:75%;
+//    margin-top:-4.1rem;
+//    img{
+//        width: 100%;
+//    }
+//    &.show{
+//        right: 0;
+//        @include transition(all 0.3s ease-in 0.3s);
+//    }
+//    &.hide{
+//        right: -3.2rem;
+//        @include transition(all 0.3s ease-in);
+//    }
+//}
+
+.freebies{
+    height: 1.75rem;
+    line-height: 1.75rem;
+    font-size: 0.65rem;
+    border-top:1px solid #e5e5e5;
+    background-color: #FFFFFF;
+    padding-left: 0.5rem;
+    a{
+        display: block;
+        position: relative;
+        &:before{
+            content: "";
+            width: 0.85rem;
+            height: 0.85rem;
+            display: inline-block;
+            margin: 0.4rem 0.1rem 0 0;
+            vertical-align: top;
+            background: url('freebies-icon.png') no-repeat center top transparent;
+            @include background-size(contain);
+        }
+        span{
+            color: #e50012;
+        }
+        &:after{
+            position: absolute;
+            right: 0.75rem;
+            top: 0.5rem;
+            display: block;
+            width: 0.425rem;
+            height: 0.8rem;
+            content: "";
+            background: url('../../widget/section-category/icon.png') no-repeat center center transparent;
+            @include background-size(contain);
+        }
+    }
+}

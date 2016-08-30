@@ -1,0 +1,344 @@
+@import '../sass/sassCore/_base.scss';
+.confirm-order{
+    width: 100%;
+    background-color:#f7f7f7;
+    .grid{
+        border-bottom:1px solid #e5e5e5;
+        line-height: 1.625rem;
+        height: 1.625rem;
+        font-size: 0.65rem;
+        padding:0 0.75rem;
+        background-color: #FFFFFF;
+        margin-bottom: 0.5rem;
+        .fn-fr{
+            color: #e43232;
+            text-align:right;
+        }
+        &.cupon{
+            height:auto;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0;
+            @import "../sass/couponArea";
+        }
+        #cupon-txt{
+            width: 9.5rem;
+            height: 1.625rem;
+            line-height: 1.625rem;
+            background-color: #f2f2f2;
+            float: left;
+            text-indent: 0.25rem;
+            color:#999999;
+            border: none;
+        }
+        .cupon-confirm{
+            float: right;
+            width: 4.5rem;
+            height: 1.625rem;
+            line-height: 1.625rem;
+            text-align: center;
+            border: 1px solid #333333;
+            border-radius: 3px;
+        }
+        .cupon-intro{
+            width: 100%;
+            padding:0.25rem 0;
+            color:#e50012;
+            float: right;
+            display: none;
+            font-size: 0.65rem;
+        }
+        .error-info:before{
+            width: 0.85rem;
+            height: 0.825rem;
+            background: url("/static/images/order-err.png") center center no-repeat transparent;
+            background-size: contain;
+            margin:0 .125rem;
+            display: inline-block;
+            vertical-align: middle;
+            content:"";
+        }
+        .confirm-info:before{
+            width: 0.85rem;
+            height: 0.825rem;
+            background: url("/static/images/order-currect.png") center center no-repeat transparent;
+            background-size: contain;
+            margin:0 .125rem;
+            display: inline-block;
+            vertical-align: middle;
+            content:"";
+        }
+        &.grid-logistics{
+            height: auto;
+            padding: 0.75rem 0 0;
+            &>div{
+                position: relative;
+            }
+            li{
+                position: relative;
+                padding-left: 1.5rem;
+                font-size: 0.6rem;
+                margin-bottom: 0.25rem;
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 0.875rem;
+                    height: 0.875rem;
+                    left: 0.3rem;
+                    top: 50%;
+                    margin-top: -0.437rem;
+                    border: 1px solid #919191;
+                    border-radius: 50%;
+                    transition: all 0.3s;
+                }
+                &.checked:before{
+                    background: url('/static/cart/icon.png') center center no-repeat #e8414e;
+                    border: 1px solid #FFFFFF;
+                }
+                i{
+                    font-style: normal;
+                    color: #999999;
+                }
+            }
+            .logistics-info{
+                color:#e50012;
+                font-size: 0.6rem;
+                line-height:1rem;
+                background-color: #f7f7f7;
+                border-radius: 5px;
+                text-align: left;
+                margin-bottom: 0.75rem;
+                padding: 0.4rem;
+            }
+        }
+        &.paytype{
+            height: auto;
+            margin-bottom: 0;
+            border-bottom: none;
+            &>div{
+                position: relative;
+            }
+            li{
+                position: relative;
+                padding-left: 1.5rem;
+                font-size: 0.6rem;
+                margin-bottom: 0.25rem;
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 0.875rem;
+                    height: 0.875rem;
+                    left: 0.3rem;
+                    top: 50%;
+                    margin-top: -0.437rem;
+                    border: 1px solid #919191;
+                    border-radius: 50%;
+                    transition: all 0.3s;
+                }
+                &.checked:before{
+                    background: url('/static/cart/icon.png') center center no-repeat #e8414e;
+                    border: 1px solid #FFFFFF;
+                }
+                >span{
+                    display: inline-block;
+                    margin-right: 0.5rem;
+                    vertical-align: middle;
+                }
+                .icon-zhifubao{
+                    width:1.35rem;
+                    height: 1.35rem;
+                    background: url('../images/zhifubao.png') center center no-repeat transparent;
+                    @include background-size(cover);
+                }
+                .icon-weixin{
+                    width:1.35rem;
+                    height: 1.35rem;
+                    background: url('../images/weixin.png') center center no-repeat transparent;
+                    @include background-size(cover);
+                }
+            }
+            .paytype{
+                color:#f35357;
+                font-size: 0.6rem;
+                line-height:1rem;
+                border: 1px solid #f35357;
+                border-radius: 10px;
+                padding-left: 0.7rem;
+                padding-right: 0.4rem;
+                text-align: left;
+                position: absolute;
+                right: 0;
+                top: 0.25rem;
+                &:before{
+                    background: url('/static/images/icon.png') left top no-repeat transparent;
+                    width: 0.75rem;
+                    height: 0.575rem;
+                    content: "";
+                    display: inline-block;
+                    vertical-align: middle;
+                    background-size: contain;
+                    margin-right: 0.2rem;
+                }
+            }
+        }
+    }
+    .txt{
+        width: 100%;
+        padding-bottom: 0.5rem;
+        background-color: #FFFFFF;
+        p{
+            width:15.25rem;
+            margin:0 auto 0.5rem;
+            padding:0 0.375rem;
+            background-color: #f2f2f2;
+            color: #999999;
+            line-height:1.5rem;
+            font-size: 0.6rem;
+        }
+        textarea{
+            border:1px solid #e5e5e5;
+            width: 15.25rem;
+            margin:0 auto;
+            line-height: 0.75rem;
+            font-size: 0.6rem;
+            padding:0.25rem;
+            min-height: 2.5rem;
+            display: block;
+        }
+    }
+    .fixd-grid{
+        width: 100%;
+        position: fixed;
+        height: 2.375rem;
+        bottom:0;
+        background-color: rgba(0,0,0,0.85);
+        color: #FFFFFF;
+        .fn-fl{
+            width: 10.375rem;
+            line-height: 2.375rem;
+            font-size: 0.7rem;
+            text-indent:0.75rem;
+            padding-top: 0.4rem;
+            p{
+                line-height: 0.8rem;
+                font-size: 0.7rem;
+            }
+            .pay-detail{
+                font-size: 0.45rem;
+                color: #777777;
+            }
+        }
+        .fn-fr{
+            width: 5.6rem;
+            background-color:#db2735;
+            float: right;
+            a{
+                display: block;
+                line-height: 2.375rem;
+                text-align:center;
+                font-size: 0.9rem;
+                color: #FFFFFF;
+                &.submit-btnCC{
+                    background-color:#666666;
+                }
+            }
+        }
+    }
+}
+.normalheader{
+    border-bottom:none!important;
+}
+a.progrid{
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    padding:0.375rem 0;
+    &.overstock{
+        background-color:#eeeeee;
+        opacity: 0.3;
+        & > p{
+            color: #000000;
+        }
+    }
+    p{
+        color:#999999;
+        font-size: 0.65rem;
+        line-height: 1rem;
+        &:nth-child(1){
+            color:#444444;
+            font-size: 0.6rem;
+        }
+    }
+    .img{
+        width:4.25rem;
+        height: 4.25rem;
+        overflow: hidden;
+        margin:0.25rem 0.5rem 0.25rem 0;
+        float: left;
+        border:1px solid #e5e5e5;
+        img{
+            height: 100%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    .info{
+        width: 7.7rem;
+        float: left;
+        .activity-name{
+            float: left;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 100%;
+            span{
+                background-color: #ffb270;
+                padding: 0 0.125rem;
+                line-height: 0.7rem;
+                color: #FFF;
+                display: inline-block;
+                font-size: 0.6rem;
+                text-indent: 0;
+            }
+        }
+    }
+    .price{
+        width:2rem;
+        float: left;
+        p:first-child{
+            color:#d33333;
+        }
+    }
+}
+.bottom-title{
+    margin-bottom: 2.375rem;
+}
+.order-list{
+    padding: 0 0.75rem;
+    margin-top: 0.5rem;
+    background-color: #FFFFFF;
+    h4{
+        line-height: 1.75rem;
+        border-bottom: 1px solid #e6e6e6;
+        font-size: 0.65rem;
+        &:before{
+            content:"";
+            display: inline-block;
+            @include background-size(cover);
+            background-color: transparent;
+            background-position: center top;
+            background-repeat: no-repeat;
+            margin-right: 0.25rem;
+            width: 1.125rem;
+            height: 0.7rem;
+            background-image: url("../images/m-transport-icon.png");
+        }
+    }
+    &#xg{
+        h4:before{
+            width: 1.175rem!important;
+            height: 0.7rem!important;
+            background-image: url("../images/m-plane-icon.png")!important;
+        }
+    }
+}

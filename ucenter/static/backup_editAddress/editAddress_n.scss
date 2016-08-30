@@ -1,0 +1,126 @@
+@import "/static/sass/sassCore/base";
+
+.edit-address{
+  padding-bottom:0.75rem;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  .address-nav{
+    width: 100%;
+    padding:0.5rem 0.25rem;
+    border-bottom:1px solid #e5e5e5;
+    font-size: pxToRem(28);
+    color: #333;
+    height: pxToRem(140);
+    overflow-y: hidden;
+    select{
+      position: relative;
+      z-index: 99;
+      top: pxToRem(-72);
+      width: 33.33%;
+      border: 1px solid green;
+      height: pxToRem(72);
+      opacity: 0;
+    }
+    .select-btn{
+      width: 100%;
+      position: relative;
+      z-index: 90;
+      button{
+        width: 33.33%;
+        border:1px solid #B2B2B2;
+        float: left;
+        height: pxToRem(72);
+        background-color: #FFFFFF;
+        &:first-child{
+          border-bottom-left-radius: pxToRem(10);
+          border-top-left-radius: pxToRem(10);
+          border-right: 0;
+        }
+        &:last-child{
+          border-bottom-right-radius: pxToRem(10);
+          border-top-right-radius: pxToRem(10);
+          border-left: 0;
+        }
+        img{
+          width: 1rem;
+          float: right;
+        }
+      }
+    }
+
+  }
+
+  .grid{
+    width: 100%;
+    padding: pxToRem(10);
+    padding-bottom: 0;
+    .input{
+      display: block;
+      color: #333333;
+      width: 100%;
+      min-height: pxToRem(72);
+      line-height: pxToRem(72);
+      border:1px solid #B2B2B2;
+      font-size: pxToRem(28);
+      padding-left: pxToRem(72);
+      margin-bottom: pxToRem(20);
+      border-radius: pxToRem(10);
+      &:nth-child(1){
+        background: url("address_icon.png") no-repeat left;
+        background-size: pxToRem(72) auto;
+      }
+      &:nth-child(2){
+        background: url("name_icon.png") no-repeat left;
+        background-size: pxToRem(72) auto;
+      }
+      &:nth-child(3){
+        background: url("phone_icon.png") no-repeat left;
+        background-size: pxToRem(72) auto;
+      }
+      &:nth-child(4){
+        background: url("id_icon.png") no-repeat left;
+        background-size: pxToRem(72) auto;
+      }
+
+    }
+    .checkbox_n{
+      input{
+        display: inline-block;
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-right: 0.5rem;
+      }
+      width: 100%;
+      padding:0.5rem 0.75rem;
+      min-height: 2.125rem;
+      line-height: 1.12rem;
+      color: #999999;
+      font-size: 0.65rem;
+    }
+    #q1,#q2,#q3,#q4{
+     background-color: #FFFFFF
+    }
+  }
+  .tips{
+    padding: 0 pxToRem(10);
+    font-size: pxToRem(20);
+    div{
+      border: 0px solid #b2b2b2;
+      border-radius: 10px;
+      padding:0 pxToRem(20);
+      color: #b2b2b2;
+    }
+  }
+  .btn{
+    width: 15rem;
+    height: 2rem;
+    margin: 0.75rem auto 0;
+    background-color: #db2735;
+    text-align:center;
+    line-height: 1.9rem;
+    color:#FFFFFF;
+    display: block;
+    font-size:0.9rem;
+    border-radius: pxToRem(15);
+  }
+}

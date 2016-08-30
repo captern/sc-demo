@@ -1,0 +1,73 @@
+{
+    "_Config": {
+        "title": "卡路里－专业运动营养平台",
+        "keywords": "卡路里,卡路里商城,保健品,运动保健品",
+        "description": "卡路里运动保健品商城是一家提供专业的、针对运动特征定制化的保健品商城，包括运动基础蛋白、运动饮料、运动保护、恢复体能等运动保健品，品种丰富，任您跟需选择。",
+        "domain_image": "http://c1.hoopchina.com.cn/fis_static/kalulimobile",
+        "login_url": "http://passport.hupu.com/m/2?from=m&project=kaluli&appid=10039",
+        "reg_url": "http://passport.hupu.com/m/2/index/register?from=m&project=kaluli&appid=10039",
+        "logout_url": "http://passport.hupu.com/m/2/logout?appid=10039"
+    },
+    "_User": {
+        "uid": "21306089",
+        "username": "过往云烟最帅"
+    },
+    "order": {
+        "mainOrder": {
+            "id": "339",
+            "order_number": "1508047565496674",
+            "hupu_uid": "21306089",
+            "hupu_username": "过往云烟最帅",
+            "express_fee": "0.00",
+            "total_price": "107.00",
+            "original_price": "107.00",
+            "coupon_fee": "0.00",
+            "number": "1",
+            "order_time": "2015-08-04 16:07:34",
+            "pay_time": "2015-08-04 16:07:56",
+            "refund": null,
+            "status": "2",
+            "remark": "",
+            "address_attr": {
+                "name": "梁天",
+                "postcode": "666666",
+                "province": "福建",
+                "city": "南平",
+                "area": "武夷山市",
+                "mobile": "15061852002",
+                "region": "福建 南平 武夷山市",
+                "street": "成都市武侯区369号白云花园",
+                "identity_number": "372930199210100012"
+            }
+        },
+        "order": [{
+            "id": "475",
+            "title": "普丽普莱 红球藻提取物软胶囊",
+            "order_number": "1508047565496674",
+            "product_id": "50",
+            "goods_id": "104",
+            "domestic_express_type": "圆通",
+            "domestic_order_number": "600094897906",
+            "domestic_express_time": "1438740443",
+            "depot_type": "1",
+            "express_fee": "0.00",
+            "total_price": "107.00",
+            "price": "107.00",
+            "number": "1",
+            "status": "1",
+            "pay_status": "1",
+            "format_status": "已发货",
+            "order_time": "2015-08-04 16:07:34",
+            "receive_time": null,
+            "is_comment": "0",
+            "attr": {
+                "规格": " 5 mg*30粒"
+            },
+            "img": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0713/fa7d957bf9e2c652d1c14f7a8c138848.jpg",
+            "refund_price": null,
+            "refund_express_fee": null,
+            "refund": null
+        }]
+    },
+    "order_number": 1508047565496674
+}

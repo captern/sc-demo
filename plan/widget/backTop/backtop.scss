@@ -1,0 +1,10 @@
+@import "/static/sass/sassCore/base";
+.goToTop{
+  display: none;
+  position: fixed;
+  right: pxToRem(20);
+  bottom: pxToRem(150);
+  width: pxToRem(100);
+  height: pxToRem(100);
+  z-index: 999;
+}

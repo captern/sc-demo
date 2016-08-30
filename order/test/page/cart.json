@@ -1,0 +1,850 @@
+{
+    "cartList": {
+        "2": [{
+            "id": "614",
+            "number": "1",
+            "goods_id": "160",
+            "product_id": "76",
+            "price": "1.00",
+            "total_price": 1,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg?imageView2/1/w/100/h/100",
+            "total_num": "99890",
+            "title": "手榴弹減脂精英胶囊33",
+            "storehouse_id": "1",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "100粒"
+                }
+            },
+            "status": 1,
+            "stock_status": 1,
+            "ware": {
+                "id": "1",
+                "name": "上海发货",
+                "code": "KLLOO1",
+                "address": "",
+                "note": "全场圆通包邮 / 加20元享顺丰快递，并可获30元无限制优惠券",
+                "create_date": "2015-05-08 15:35:50",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "销售仓",
+                "area_name": "",
+                "freight_type": "1",
+                "created_at": "2015-09-06 19:35:06",
+                "updated_at": "2015-12-10 15:32:39"
+            }
+        }],
+        "1": [{
+            "id": "614",
+            "number": "1",
+            "goods_id": "160",
+            "product_id": "76",
+            "price": "1.00",
+            "total_price": 1,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg?imageView2/1/w/100/h/100",
+            "total_num": "99890",
+            "title": "手榴弹減脂精英胶囊33",
+            "storehouse_id": "1",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "100粒"
+                }
+            },
+            "status": 1,
+            "stock_status": 0,
+            "ware": {
+                "id": "1",
+                "name": "上海发货",
+                "code": "KLLOO1",
+                "address": "",
+                "note": "全场圆通包邮 / 加20元享顺丰快递，并可获30元无限制优惠券",
+                "create_date": "2015-05-08 15:35:50",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "销售仓",
+                "area_name": "",
+                "freight_type": "1",
+                "created_at": "2015-09-06 19:35:06",
+                "updated_at": "2015-12-10 15:32:39"
+            }
+        }],
+        "0": [{
+            "id": "616",
+            "number": "1",
+            "goods_id": "117",
+            "product_id": "56",
+            "price": "72.00",
+            "total_price": 72,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/fc5784f062b673a0822827de42c143c9.jpg?imageView2/1/w/100/h/100",
+            "total_num": "38",
+            "title": "普丽普莱 蓝莓营养胶囊",
+            "storehouse_id": "10",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "375 mg*100粒"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "10",
+                "name": "香港仓",
+                "code": "",
+                "address": "",
+                "note": "",
+                "create_date": "0000-00-00 00:00:00",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "",
+                "area_name": "",
+                "freight_type": "2",
+                "created_at": "2015-12-08 14:42:51",
+                "updated_at": "2015-12-08 15:23:26"
+            }
+        }, {
+            "id": "615",
+            "number": "1",
+            "goods_id": "136",
+            "product_id": "58",
+            "price": "2.00",
+            "total_price": 2,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/304d55ad62c352da83f120137b50c24e.jpg?imageView2/1/w/100/h/100",
+            "total_num": "10013",
+            "title": "普丽普莱 紫锥菊提取物胶囊",
+            "storehouse_id": "11",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "400mg*100片"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "11",
+                "name": "郑州保税仓",
+                "code": "",
+                "address": "",
+                "note": "",
+                "create_date": "0000-00-00 00:00:00",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "",
+                "area_name": "",
+                "freight_type": "2",
+                "created_at": "2015-12-08 14:43:17",
+                "updated_at": "2015-12-08 15:23:18"
+            }
+        }]
+    },
+    "haitaoCartList":{
+        "2": [{
+            "id": "614",
+            "number": "1",
+            "goods_id": "160",
+            "product_id": "76",
+            "price": "1.00",
+            "total_price": 1,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg?imageView2/1/w/100/h/100",
+            "total_num": "99890",
+            "title": "海淘手榴弹減脂精英胶囊33",
+            "storehouse_id": "1",
+            "weight": "2",
+            "attr": {
+                "attr": {
+                    "规格": "10粒"
+                }
+            },
+            "status": 1,
+            "stock_status": 1,
+            "ware": {
+                "id": "1",
+                "name": "上海发货",
+                "code": "KLLOO1",
+                "address": "",
+                "note": "全场圆通包邮 / 加20元享顺丰快递，并可获30元无限制优惠券",
+                "create_date": "2015-05-08 15:35:50",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "销售仓",
+                "area_name": "",
+                "freight_type": "1",
+                "created_at": "2015-09-06 19:35:06",
+                "updated_at": "2015-12-10 15:32:39"
+            }
+        }],
+        "1": [{
+            "id": "614",
+            "number": "1",
+            "goods_id": "160",
+            "product_id": "76",
+            "price": "1.00",
+            "total_price": 1,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg?imageView2/1/w/100/h/100",
+            "total_num": "99890",
+            "title": "手榴弹減脂精英胶囊33",
+            "storehouse_id": "1",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "100粒"
+                }
+            },
+            "status": 1,
+            "stock_status": 0,
+            "ware": {
+                "id": "1",
+                "name": "上海发货",
+                "code": "KLLOO1",
+                "address": "",
+                "note": "全场圆通包邮 / 加20元享顺丰快递，并可获30元无限制优惠券",
+                "create_date": "2015-05-08 15:35:50",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "销售仓",
+                "area_name": "",
+                "freight_type": "1",
+                "created_at": "2015-09-06 19:35:06",
+                "updated_at": "2015-12-10 15:32:39"
+            }
+        }],
+        "0": [{
+            "id": "616",
+            "number": "1",
+            "goods_id": "217",
+            "product_id": "56",
+            "price": "92.00",
+            "total_price": 92,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/fc5784f062b673a0822827de42c143c9.jpg?imageView2/1/w/100/h/100",
+            "total_num": "238",
+            "title": "海淘普丽普莱 蓝莓营养胶囊",
+            "storehouse_id": "10",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "375 mg*10粒"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "10",
+                "name": "香港仓",
+                "code": "",
+                "address": "",
+                "note": "",
+                "create_date": "0000-00-00 00:00:00",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "",
+                "area_name": "",
+                "freight_type": "2",
+                "created_at": "2015-12-08 14:42:51",
+                "updated_at": "2015-12-08 15:23:26"
+            }
+        }, {
+            "id": "615",
+            "number": "1",
+            "goods_id": "236",
+            "product_id": "258",
+            "price": "2.00",
+            "total_price": 2,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/304d55ad62c352da83f120137b50c24e.jpg?imageView2/1/w/100/h/100",
+            "total_num": "10013",
+            "title": "普丽普莱 紫锥菊提取物胶囊",
+            "storehouse_id": "11",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "400mg*100片"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "11",
+                "name": "郑州保税仓",
+                "code": "",
+                "address": "",
+                "note": "",
+                "create_date": "0000-00-00 00:00:00",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "",
+                "area_name": "",
+                "freight_type": "2",
+                "created_at": "2015-12-08 14:43:17",
+                "updated_at": "2015-12-08 15:23:18"
+            }
+        }]
+    },
+
+    "benniaoCartList":{
+        "2": [{
+            "id": "6140",
+            "number": "1",
+            "goods_id": "160",
+            "product_id": "76",
+            "price": "1.00",
+            "total_price": 1,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg?imageView2/1/w/100/h/100",
+            "total_num": "99890",
+            "title": "笨鸟仓減脂精英胶囊33",
+            "storehouse_id": "1",
+            "weight": "20",
+            "attr": {
+                "attr": {
+                    "规格": "40粒"
+                }
+            },
+            "status": 1,
+            "stock_status": 1,
+            "ware": {
+                "id": "1",
+                "name": "香港",
+                "code": "KLLOO1",
+                "address": "",
+                "note": "全场圆通包邮 / 加20元享顺丰快递，并可获30元无限制优惠券",
+                "create_date": "2015-05-08 15:35:50",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "销售仓",
+                "area_name": "",
+                "freight_type": "1",
+                "created_at": "2015-09-06 19:35:06",
+                "updated_at": "2015-12-10 15:32:39"
+            }
+        }],
+        "1": [{
+            "id": "1614",
+            "number": "1",
+            "goods_id": "160",
+            "product_id": "76",
+            "price": "1.00",
+            "total_price": 1,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg?imageView2/1/w/100/h/100",
+            "total_num": "99890",
+            "title": "笨鸟脂精英胶囊33",
+            "storehouse_id": "1",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "100粒"
+                }
+            },
+            "status": 1,
+            "stock_status": 0,
+            "ware": {
+                "id": "1",
+                "name": "上海发货",
+                "code": "KLLOO1",
+                "address": "",
+                "note": "全场圆通包邮 / 加20元享顺丰快递，并可获30元无限制优惠券",
+                "create_date": "2015-05-08 15:35:50",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "销售仓",
+                "area_name": "",
+                "freight_type": "1",
+                "created_at": "2015-09-06 19:35:06",
+                "updated_at": "2015-12-10 15:32:39"
+            }
+        }],
+        "0": [{
+            "id": "6116",
+            "number": "1",
+            "goods_id": "317",
+            "product_id": "56",
+            "price": "92.00",
+            "total_price": 92,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/fc5784f062b673a0822827de42c143c9.jpg?imageView2/1/w/100/h/100",
+            "total_num": "238",
+            "title": "笨鸟丽普莱 蓝莓营养胶囊",
+            "storehouse_id": "10",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "375 mg*10粒"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "10",
+                "name": "香港仓",
+                "code": "",
+                "address": "",
+                "note": "",
+                "create_date": "0000-00-00 00:00:00",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "",
+                "area_name": "",
+                "freight_type": "2",
+                "created_at": "2015-12-08 14:42:51",
+                "updated_at": "2015-12-08 15:23:26"
+            }
+        }, {
+            "id": "6115",
+            "number": "1",
+            "goods_id": "336",
+            "product_id": "358",
+            "price": "20.00",
+            "total_price": 2,
+            "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/304d55ad62c352da83f120137b50c24e.jpg?imageView2/1/w/100/h/100",
+            "total_num": "10013",
+            "title": "笨鸟普丽普莱 紫锥菊提取物胶囊",
+            "storehouse_id": "11",
+            "weight": "1",
+            "attr": {
+                "attr": {
+                    "规格": "400mg*100片"
+                }
+            },
+            "status": 0,
+            "stock_status": 0,
+            "ware": {
+                "id": "11",
+                "name": "本鸟巢",
+                "code": "",
+                "address": "",
+                "note": "",
+                "create_date": "0000-00-00 00:00:00",
+                "contact_name": "",
+                "contact_phone": "",
+                "contact_mobile": "",
+                "type_name": "",
+                "area_name": "",
+                "freight_type": "2",
+                "created_at": "2015-12-08 14:43:17",
+                "updated_at": "2015-12-08 15:23:18"
+            }
+        }]
+    },
+    "totalData": {
+        "total_count": 3,
+        "total_price": 95,
+        "original_price": 95,
+        "total_product_price": 75,
+        "freight": 20,
+        "yuantong_freight": 0,
+        "shunfeng_freight": 20,
+        "total_weight": 1,
+        "activity": {
+            "activity": {
+                "2": {
+                    "list": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                },
+                "1": {
+                    "list": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                }
+            },
+            "goods_info": {
+                "117": {
+                    "product_id": "56",
+                    "goods_id": "117",
+                    "number": "1",
+                    "price": 72,
+                    "activity": []
+                },
+                "136": {
+                    "product_id": "58",
+                    "goods_id": "136",
+                    "number": "1",
+                    "price": 2,
+                    "activity": []
+                },
+                "160": {
+                    "product_id": "76",
+                    "goods_id": "160",
+                    "number": "1",
+                    "price": 1,
+                    "activity": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                }
+            },
+            "activity_save": 0
+        }
+    },
+    "haitaoTotalData": {
+        "total_count": 3,
+        "total_price": 95,
+        "original_price": 95,
+        "total_product_price": 75,
+        "freight": 20,
+        "yuantong_freight": 0,
+        "shunfeng_freight": 20,
+        "total_weight": 1,
+        "activity": {
+            "activity": {
+                "2": {
+                    "list": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                },
+                "1": {
+                    "list": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                }
+            },
+            "goods_info": {
+                "117": {
+                    "product_id": "56",
+                    "goods_id": "117",
+                    "number": "1",
+                    "price": 72,
+                    "activity": []
+                },
+                "136": {
+                    "product_id": "58",
+                    "goods_id": "136",
+                    "number": "1",
+                    "price": 2,
+                    "activity": []
+                },
+                "160": {
+                    "product_id": "76",
+                    "goods_id": "160",
+                    "number": "1",
+                    "price": 1,
+                    "activity": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                }
+            },
+            "activity_save": 0
+        }
+    },
+
+    "benniaoTotalData": {
+        "total_count": 30,
+        "total_price": 905,
+        "original_price": 915,
+        "total_product_price": 75,
+        "freight": 20,
+        "yuantong_freight": 0,
+        "shunfeng_freight": 20,
+        "total_weight": 1,
+        "activity": {
+            "activity": {
+                "2": {
+                    "list": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                },
+                "1": {
+                    "list": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    },{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                }
+            },
+            "goods_info": {
+                "117": {
+                    "product_id": "56",
+                    "goods_id": "117",
+                    "number": "1",
+                    "price": 72,
+                    "activity": []
+                },
+                "136": {
+                    "product_id": "58",
+                    "goods_id": "136",
+                    "number": "1",
+                    "price": 2,
+                    "activity": []
+                },
+                "160": {
+                    "product_id": "76",
+                    "goods_id": "160",
+                    "number": "1",
+                    "price": 1,
+                    "activity": [{
+                        "id": "2",
+                        "title": "呵呵呵",
+                        "mode": "2",
+                        "scope": "2",
+                        "attr1": "1",
+                        "attr2": "70",
+                        "stime": "1448935400",
+                        "etime": "1451441000",
+                        "intro": "满500减100",
+                        "collectFlag": true
+                    }],
+                    "collectFlag": true
+                }
+            },
+            "activity_save": 0
+        }
+    },
+
+    "neworderitem":{
+        "sku":{
+            "id":"18",
+            "item_id":"7",
+            "code":"dddd",
+            "attr":{
+                "attr":{
+                    "颜色":"白色"
+                }
+            },
+            "ware_sku":"",
+            "price":"96.00",
+            "discount_price":"558.00",
+            "weight":"1",
+            "pic":"",
+            "total_num":"11",
+            "lock_num":"111",
+            "storehouse_id":"1",
+            "status":"0",
+            "wupdate_time":"0"
+        },
+        "item":{
+            "id":"7",
+            "title":"肌肉科技白金酪蛋白增肌粉3.75磅",
+            "pic":"http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0309/e557a485c5ff029c0e8ca4da24190177.jpg",
+            "brand_id":"2",
+            "sell_point":"健身增肌，更美味，更高溶解度",
+            "intro":"健身增肌，更美味，更高溶解度",
+            "price":"96.00",
+            "discount_price":"558.00",
+            "hits":"1146",
+            "status":"3",
+            "created_at":"2015-06-03 09:53:38",
+            "updated_at":"2015-12-25 15:39:36",
+            "content":""
+        }
+    }
+
+}

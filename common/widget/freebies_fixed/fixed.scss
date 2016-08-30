@@ -1,0 +1,58 @@
+@import "/static/sass/sassCore/base";
+.freebies-fixed{
+//  width: 3.175rem;
+//  height: 4.1rem;
+//  position: fixed;
+//  right: -3.2rem;
+//  top:75%;
+//  margin-top:-4.1rem;
+//  img{
+//    width: 100%;
+//  }
+//  &.show{
+//    right: 0;
+//    @include transition(all 0.3s ease-in 0.3s);
+//  }
+//  &.hide{
+//    right: -3.2rem;
+//    @include transition(all 0.3s ease-in);
+//  }
+  background-color: rgba(236,112,68,.93);
+  position: fixed;
+  z-index: 101;
+  top:pxToRem(-90);
+  width: 100%;
+  height: pxToRem(90);
+  line-height: pxToRem(90);
+  padding-left: pxToRem(30);
+  color: #FFFFFF;
+  font-size: pxToRem(20);
+    &.show{
+      top: 0;
+      @include transition(all 0.3s ease-in 0.3s);
+    }
+    &.hide{
+      top: pxToRem(-90);
+      @include transition(all 0.3s ease-in);
+    }
+  .icon-monery{vertical-align: text-bottom}
+  b{
+    font-size: pxToRem(28);
+    margin-left: pxToRem(20);
+  }
+  a{
+    color: #FFFFFF;
+    font-size: pxToRem(18);
+    border: 1px solid #fff;
+    border-radius: pxToRem(10);
+    padding: pxToRem(10) pxToRem(20);
+    margin-left: pxToRem(20);
+  }
+  .icon-close{
+    position: absolute;
+    right: pxToRem(15);
+    top: pxToRem(15);
+    width: pxToRem(35);
+    height: pxToRem(35);
+  }
+}

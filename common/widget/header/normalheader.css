@@ -1,0 +1,23 @@
+.normalheader{
+    height: 2.25rem;    
+    width: 100%;
+    border-bottom:1px solid #e5e5e5; 
+    background-color: #FFFFFF;
+    position: relative;
+}
+.back-link{
+    width: 2.1rem;
+    padding: 0.55rem 0.75rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.back-link img{
+    width: 100%;
+}
+.normalheader h3{
+    font-size: 0.9rem;
+    line-height: 1rem;
+    padding-top: 0.625rem;
+    text-align: center;
+}

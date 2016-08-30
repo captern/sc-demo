@@ -1,0 +1,132 @@
+@import "sass/sassCore/base";
+.pagewrap{
+  width: 100%;
+  background-color: #ff002a;
+  &.discount{
+    .content{
+      margin-top:0.5rem;
+      .title{
+        i{
+          display:inline-block;
+          padding: 0 0.5rem;
+          height: 1rem;
+          line-height: 1;
+          background-color:#ff002a;
+          text-indent: 0;
+        }
+      }
+      .grid{
+        ul{
+          li{
+            width:7.3rem;
+            height: 10.107rem;
+            .img{
+              width: 6rem;
+              height: 6rem;
+            }
+            .proname,.prointro{
+              height:0.6rem;
+              overflow: hidden;
+              text-overflow:ellipsis;
+              white-space: nowrap;
+            }
+            .prointro{
+              font-size: .469rem;
+              line-height: .597rem;
+              overflow: hidden;
+              color:#f1062c;
+            }
+            &:nth-child(2n){
+              margin:0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .head{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  .content{
+    margin-top:-2.667rem;
+    position: relative;
+    .grid{
+      width:100%;
+      margin-bottom: 0.32rem;
+      padding:0 0.427rem;
+      h3{
+        text-align: center;
+        font-size:0.853rem;
+        color:#ffff53;
+        vertical-align: top;
+        width:100%;
+        height: 1.28rem;
+        line-height: 0.853rem;
+        text-indent: -0.6rem;
+        background-image: url(/static/maiyisongyi/titlebg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        font-weight: normal;
+        font-style: italic;
+        @include background-size(contain);
+        margin-bottom: 0.64rem;
+      }
+      ul{
+        li{
+          width:4.757rem;
+          height:8.107rem;
+          float: left;
+          margin:0 0.427rem 0.427rem 0;
+          background-color: #FFFFFF;
+          a{
+            display: block;
+            padding:0.32rem 0.32rem 0 0.32rem;
+          }
+          .img {
+            width:4rem;
+            height: 4rem;
+            overflow: hidden;
+            margin:0 auto 0.2rem;
+            position: relative;
+            img {
+              height: 100%;
+              display: block;
+              margin: 0 auto;
+              position: absolute;
+              left: 50%;
+              @include transform(translate(-50%,0));
+            }
+          }
+          .proname{
+            font-size: 0.469rem;
+            line-height:0.597rem;
+            height: 1.2rem;
+            overflow: hidden;
+          }
+          .proprice{
+            font-size: 0.597rem;
+            line-height: 1.067rem;
+            color:#f1062c;
+            i{
+              font-style:normal;
+              font-size: 0.35rem;
+            }
+          }
+          .btn{
+            width: 100%;
+            height: 0.747rem;
+            line-height: 0.747rem;
+            color: #FFFFFF;
+            font-size: 0.469rem;
+            text-align:center;
+            background-color: #f1062c;
+          }
+        }
+      }
+    }
+  }
+}

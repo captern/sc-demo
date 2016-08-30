@@ -1,0 +1,276 @@
+@import "../sass/sassCore/base";
+body{
+    width: 100%;
+    position: relative;
+}
+.cart-box{
+    width:1.35rem;
+    height: 1.225rem;
+    position: absolute;  
+    top: 0.5rem;
+    right: 0.75rem;
+    background-image:url(cart-icon.png);
+    background-repeat:no-repeat;
+    @include background-size(contain);
+    a{
+        display: block;
+        background-color: #e71021;
+        text-align: center;
+        padding:0.15rem;
+        color:#FFFFFF;
+        font-size: 0.4rem;  
+        position: absolute;
+        right: -0.3rem;
+        top: -20%;
+        border-radius: 50%;
+        width: 0.75rem;
+        height: 0.75rem;
+        line-height: 0.45rem;
+    }
+}
+.share-icon{
+    width:2.275rem;
+    height: 2.275rem;
+    position: absolute;
+    top: 13.75rem;
+    right: 0.75rem;
+    background-image:url(share-icon.png);
+    background-repeat:no-repeat;
+    @include background-size(contain);
+    z-index: 50;
+    span{
+        color:#db2735;
+        font-size: 0.6rem;
+        display: block;
+        position:absolute;
+        top: 100%;
+        left:0px;
+        width: 100%;
+        text-align: center;
+        line-height: 1rem;
+    }
+}
+.left-red{
+    position:absolute;
+    left:0px;
+    top:160px;
+    width:3.5rem;
+    height:2rem;
+    padding-top:0.3rem;
+    background:url("left_red.png") no-repeat;
+    background-size:100% auto;
+    color:#fff;
+    text-align:center;
+    font-size: 0.6rem;
+    display: none;
+}
+.product-title{
+    width: 100%;
+    padding:0 0.75rem;
+    background-color:#FFFFFF;
+    border-bottom:1px solid #ebebeb;
+    h3{
+        padding:0.5rem 0;
+        line-height: 1rem;
+        font-size: 28px;
+        font-size: 0.8rem;
+        font-weight:bolder;
+    }
+    .intro{
+        font-size: 0.65rem;
+        color: #666; 
+        line-height: 1rem;
+        max-height: 3rem;
+        overflow:hidden;
+        .yys{
+            color:#444444;
+            font-weight:bolder;
+            img{
+                padding-right:5px;
+                width:1.2rem;
+            }
+        }
+    }
+    .price{
+        padding:0.5rem 0;
+        line-height:1.35rem;
+        i{
+            color:#e50012;
+            font-size: 0.6rem;
+            font-style: normal;
+        }
+        em{
+            font-style: normal;
+        }
+        .discount{
+            color:#e50012;
+            font-size: 1rem;
+            line-height: 0.85rem;   
+            display: inline-block;         
+        }
+        .original{
+            color: #999999;
+            font-size: 0.6rem;
+            display: inline-block;  
+            margin-left:20px;     
+            &.linethrough{
+                text-decoration: line-through;
+            }                            
+        }
+    }
+}
+.manjian{
+    width:100%;
+    border-bottom:1px solid #ebebeb;
+    font-size: 0.6rem;
+    height:2rem;
+    line-height:2rem;
+    padding-left:0.75rem;
+    color:#666;
+    background:#fff url("more.png") 95% center no-repeat;
+    background-size:13px auto;
+    .red{
+        background:#e8414e;
+        border-radius:3px;
+        color:#fff;
+        padding:5px;
+        margin-right:10px;
+    }
+}
+.sendadd{
+    background:#fafafa;
+    height:1.8rem;
+    line-height:1.8rem;
+    border-bottom:1px solid #d5d5d5;
+    color:#999999;
+    font-size:0.55rem;
+    .fl{
+        width:70%;
+        float:left;
+        padding-left:0.75rem;
+        overflow:hidden;
+        height:1.8rem;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        span{
+            display:inline-block;
+            width:0.75rem;
+            height:0.75rem;
+            background:url("ic_fh.png") no-repeat;
+            background-size:100%;
+            vertical-align:middle;
+            margin-right:10px;
+        }
+        s{
+            text-decoration: none;
+        }
+    }
+    .fr{
+        width:30%;
+        float:right;
+        text-align:center;
+        span{
+            display:inline-block;
+            width:0.75rem;
+            height:0.75rem;
+            background:url("ic_xl.png") no-repeat;
+            background-size:100%;
+            vertical-align:middle;
+            margin-right:10px;
+        }
+    }
+}
+.zhengpin{
+    width:100%;
+    margin-top:0.5rem;
+    img{
+       width:100%; 
+    }
+}
+
+
+.bottom-title{
+    padding-bottom:2.5rem;
+}
+
+
+
+/*立即购买登录*/
+
+.loginAlert{ width:80%;padding:0.7rem; background:#fcfcfc; position:fixed; top:16%; left:10%; border-radius: 10px; z-index: 102; text-align: center; font-size: 0.6rem;display:none;}
+.loginAlert p{ margin-bottom:0.2rem;}
+.loginAlert .tit{ font-size:0.7rem;}
+.loginAlert .lgn{ color:#247ae5; padding-left: 2px;line-height: 40px; border-bottom: 1px dotted #90bbf0;padding-bottom: 2px;}
+.loginAlert .logintel{ width:100%; height:1.7rem; padding-left: 10px; border-radius: 5px;-webkit-appearance:none; background:#fff; border:1px solid #d7d7d7; margin:10px 0px;}
+.loginAlert .loginyzm,.loginAlert .imgyzm{height:1.7rem;width:55%;float:left; padding-left: 10px; border-radius: 5px;-webkit-appearance:none; background:#fff; border:1px solid #d7d7d7; }
+.loginAlert .sendyzm{float:right;height:1.7rem;border-radius: 5px; border:1px solid #999; background: #fff;text-align: center; color: #666; padding:0px 0.4rem;  font-size: 0.6rem;-webkit-appearance:none; display:inline-block;}
+.loginAlert .line{ border-top: 1px solid #e6e6e6; margin-top: 0.2rem;margin-bottom:0px;}
+.loginAlert .btn_lkBuy{ background:#e43232; color:#fff; text-align: center; border-radius: 5px; display:block; margin-top: 0.6rem; font-size: 0.7rem; padding:0.3rem 1rem;}
+.loginAlert .pic{ width: 35%;height: 1.7rem;float: right;}
+.loginAlert .clearfix{
+    clear:both;
+    height:2rem;
+}
+#login-mask{z-index: 98;}
+
+.mask {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    z-index: 1000;
+}
+@-webkit-keyframes maskFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: .7;
+  }
+}
+
+@keyframes maskFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: .7;
+  }
+}
+
+.maskFadeIn {
+  -webkit-animation: maskFadeIn .3s ease forwards;
+  animation: maskFadeIn .3s ease forwards;
+}
+@-webkit-keyframes maskFadeOut {
+  0% {
+    opacity: .7;
+  }
+
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes maskFadeOut {
+  0% {
+    opacity: .7;
+  }
+
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.maskFadeOut {
+  -webkit-animation: maskFadeOut .3s ease forwards;
+  animation: maskFadeOut .3s ease forwards;
+}

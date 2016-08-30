@@ -1,0 +1,99 @@
+@import "/static/sass/sassCore/base";
+$bordercolor : #e5e5e5;
+.floors{
+  margin-bottom: pxToRem(20);
+  background-color: #FFFFFF;
+  h3{
+    line-height: pxToRem(55);
+    font-size: pxToRem(26);
+    color: #434141;
+    font-weight: 700;
+    padding-left: pxToRem(20);
+    border-bottom: 1px solid $bordercolor;
+  }
+//  .item-banner{
+//    display: inline-block;
+//    width: 100%;
+//    padding: pxToRem(20);
+//    border-bottom: 1px solid $bordercolor;
+//    .banner{
+//      width: 100%;
+//      height: pxToRem(194);
+//    }
+//    .banner-summary{
+//      font-size: pxToRem(28);
+//      color: #434141;
+//      float: left;
+//      margin-top: pxToRem(20);
+//    }
+//    .banner-time{
+//      color: #a9a9b2;
+//      font-size: pxToRem(22);
+//      float: right;
+//      margin-top: pxToRem(25);
+//    }
+//    .img{
+//      float: left;
+//      width: pxToRem(210);
+//      height: pxToRem(140);
+//      img{
+//        width: 100%;
+//        height: 100%;
+//      }
+//    }
+//    .info{
+//      float: left;
+//      margin-left: pxToRem(20);
+//    }
+//  }
+//  .item-block{
+//    display: flex;
+//    flex:1;
+//    -webkit-box-flex: 1;
+//    -webkit-flex: 1;
+//    border-bottom:1px solid $bordercolor;
+//    .img{
+//      width: 5rem;
+//      float: left;
+//      min-height: 4.25rem;
+//      overflow: hidden;
+//      margin-top: 0.6rem;
+//      img{
+//        max-width: 4.25rem;
+//        height: 4.25rem;
+//        margin: 0 auto;
+//        display: block;
+//      }
+//    }
+//    .info {
+//      width: 10.75rem;
+//      float: right;
+//      margin-top: 0.6rem;
+//      min-height: 2.25rem;
+//      padding-bottom: 1rem;
+//      position: relative;
+//      p {
+//        line-height: 1rem;
+//        font-size: 0.7rem;
+//        &:first-child{
+//          height: pxToRem(110);
+//          overflow: hidden;
+//        }
+//        &:nth-child(2) {
+//          font-size: 0.65rem;
+//          color: #999999;
+//          max-height: 2rem;
+//          overflow: hidden;
+//        }
+//      }
+//    }
+//  }
+  .more{
+    text-align: center;
+    line-height: pxToRem(72);
+    a{
+      font-size: pxToRem(24);
+      color: #a9a9b2;
+    }
+  }
+}

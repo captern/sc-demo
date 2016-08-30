@@ -1,0 +1,143 @@
+.pagewrap{
+  width: 100%;
+  background-color:#f44b83;
+  font-family: "Microsoft Yahei";
+  .pagehead{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    img{
+      display: block;
+      width: 100%;
+      &:last-child{
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+  .pagecontent{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 30px;
+    .grid{
+      width: 100%;
+      margin:0 auto;
+      overflow: hidden;
+      .title{
+        width:100%;
+        line-height: 1.45rem;
+        text-align: center;
+        margin: 0.7rem 0;
+        color:#FFFFFF;
+        font-size: 0.95rem;
+        font-weight: bold;
+        border: 2px solid #FFFFFF;
+        border-left: none;
+        border-right:none;
+      }
+      ul{
+        width: 100%;
+        display: block;
+        background-color: #FFFFFF;
+        li{
+          width: 50%;
+          padding:1.5rem 0 0.875rem 0;
+          overflow: hidden;
+          float:left;
+          background-color: #FFFFFF;
+          position: relative;
+          .border{
+            width: 3px;
+            height: 321px;
+            position: absolute;
+            left: 0px;
+            top: 50%;
+            margin-top: -150px;
+            background: url("http://sh1.hoopchina.com.cn/images/kaluli/activity/border.png") no-repeat left top transparent;
+          }
+          .intro{
+            color:#f44a82;
+            font-size: 0.6rem;
+            line-height: 0.7rem;
+            height: 0.75rem;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            top:0.55rem;
+            overflow: hidden;
+            background:url("http://sh1.hoopchina.com.cn/images/kaluli/activity/border-bottom.png") no-repeat center bottom transparent;
+          }
+          a{
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+          .img{
+            width: 235px;
+            height: 235px;
+            overflow: hidden;
+            margin:5px auto 10px;
+            img{
+              height: 240px;
+              display: block;
+              margin: 0 auto;
+            }
+          }
+          .proname{
+            font-size: 0.55rem;
+            line-height: 0.6rem;
+            height: 1.2rem;
+            overflow: hidden;
+            text-align: center;
+            color: #000000;
+          }
+          .prointro{
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 5px;
+            height: 20px;
+            overflow: hidden;
+            color:#f03939;
+          }
+          .bottom{
+            width: 100%;
+            text-align: center;
+            > div{
+              color: #f44a82;
+              vertical-align: bottom;
+              display: inline;
+            }
+            .discount-price{
+              font-size: 1rem;
+              font-weight: bold;
+              i{
+                font-size: 0.8rem;
+                font-style: normal;
+              }
+            }
+            .price{
+              font-size: 0.6rem;
+              font-weight: bold;
+              vertical-align: bottom;
+              s{
+                text-decoration: line-through;
+              }
+            }
+          }
+          .buyBtn{
+            width: 5rem;
+            height: 1rem;
+            line-height: 1rem;
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 0.6rem;
+            font-weight: bold;
+            margin: 10px auto 0;
+            background-color: #f44a82;
+          }
+        }
+      }
+    }
+  }
+}

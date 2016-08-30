@@ -1,0 +1,19 @@
+{
+  "sectionname":{
+    "健乐多汤臣倍健专场":[{
+       "id":"1",
+       "sell_point":"12312",
+       "title":"123123",
+       "pic":"http://shihuo.hupucdn.com/uploads/kaluli/item/201510/2018/a3a414fbb0e05d871b651027af5c9b72.png?imageView2/2/h/400",
+      "discount_price":"1231.00",
+      "price":"1231.00"
+    },{
+      "id":"1",
+      "sell_point":"12312",
+      "title":"123123",
+      "pic":"http://shihuo.hupucdn.com/uploads/kaluli/item/201510/2018/a3a414fbb0e05d871b651027af5c9b72.png?imageView2/2/h/400",
+      "discount_price":"1231.00",
+      "price":"1231.00"
+    }]
+  }
+}

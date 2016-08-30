@@ -1,0 +1,43 @@
+.brand-grid{
+    width: 100%;
+    min-height:  7.57rem;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top:0.5rem;
+    h3{
+        font-size: 0.7rem;
+        line-height: 2rem;
+        font-weight: bold;
+        margin:0 0.75rem;
+        display: block;
+        border-bottom:1px solid #e5e5e5;
+    }
+    ul{
+        width: 100%;
+        li{
+            float: left;
+            width: 25%;
+            height: 2.75rem;
+            border:1px #e5e5e5 solid;
+            a{
+                width: 3rem;
+                height: 2.75rem;
+                line-height: 2.75rem;
+                display: block;
+                margin: 0 auto;
+                overflow: hidden;
+                &:after{
+                    content: "";
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 0;
+                }
+                img{
+                    width: 90%;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

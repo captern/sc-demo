@@ -1,0 +1,68 @@
+{
+    "_Config": {
+        "title": "卡路里－专业运动营养平台",
+        "keywords": "卡路里,卡路里商城,保健品,运动保健品",
+        "description": "卡路里运动保健品商城是一家提供专业的、针对运动特征定制化的保健品商城，包括运动基础蛋白、运动饮料、运动保护、恢复体能等运动保健品，品种丰富，任您跟需选择。"
+    },
+    "_User": {
+        "uid": "21306089",
+        "username": "过往云烟最帅"
+    },
+    "orderData": {
+        "mainOrder": {
+            "id": "326",
+            "order_number": "1507302389219769",
+            "hupu_uid": "21306089",
+            "hupu_username": "过往云烟最帅",
+            "express_fee": "0.00",
+            "total_price": "359.00",
+            "original_price": "389.00",
+            "coupon_fee": "30.00",
+            "number": "1",
+            "order_time": "2015-07-30 10:38:12",
+            "pay_time": "2015-07-30 10:40:20",
+            "refund": null,
+            "status": "1",
+            "remark": "",
+            "address_attr": {
+                "name": "朱超",
+                "postcode": "445555",
+                "province": "福建",
+                "city": "宁德",
+                "area": "福鼎市",
+                "mobile": "13861801111",
+                "region": "福建 宁德 福鼎市",
+                "street": "成都市武侯区369号黑土花园",
+                "identity_number": "372930199210100012"
+            }
+        },
+        "order": [{
+            "id": "455",
+            "title": "Grenade 手榴弹減脂精英胶囊",
+            "order_number": "1507302389219769",
+            "product_id": "76",
+            "goods_id": "160",
+            "domestic_express_type": "未知状态",
+            "domestic_order_number": null,
+            "domestic_express_time": "0",
+            "depot_type": "1",
+            "express_fee": "0.00",
+            "total_price": "359.00",
+            "price": "389.00",
+            "number": "1",
+            "status": "0",
+            "pay_status": "1",
+            "format_status": "待发货",
+            "order_time": "2015-07-30 10:38:12",
+            "receive_time": null,
+            "is_comment": "0",
+            "attr": {
+                "规格": "100粒"
+            },
+            "img": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg",
+            "refund_price": null,
+            "refund_express_fee": null,
+            "refund": null
+        }]
+    }
+}

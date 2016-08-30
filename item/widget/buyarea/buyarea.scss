@@ -1,0 +1,280 @@
+@import "/static/sass/sassCore/base";
+
+.buyarea{
+    width: 100%;
+    height: 2.5rem;
+    position: fixed;    
+    bottom: -2.5rem;
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.85);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 101;
+    &.show{
+        opacity: 1;
+        visibility: visible;
+        bottom:0;
+    }
+    ul{
+        width: 100%;
+        height: 100%;
+        li{
+            height: 100%;
+            float: left;
+            background-color:#db2735;
+            font-size: 0.9rem;
+            color:#FFFFFF;
+            line-height:2.5rem; 
+            text-align: center;
+            &.kefu{
+                width:3.75rem;
+                background-color:rgba(0,0,0,0);
+                font-size: 0.6rem;
+                line-height: 0.5rem;
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    color: #FFFFFF;
+                    background-color: transparent;
+                    padding-top:0.4rem;         
+                    &:before{
+                        background-image:url(kefu.png);
+                        @include background-size(contain);
+                        width: 0.925rem;
+                        height: 0.95rem;
+                        display: block;
+                        margin:0 auto 0.125rem;
+                        content:"";
+                    }
+                }                
+            }
+            &.button{
+                width:6.075rem;
+                &:nth-child(4){
+                    float: right;
+                }
+                &:nth-child(5){
+                    float: right;
+                }
+                &.disabled{
+                    background-color:#666666;
+                }
+            }            
+        }
+    }
+}
+.skucontent{
+    width: 100%;
+    height: 19rem;
+    position: fixed;    
+    bottom: -20rem;
+    visibility: hidden;
+    background-color: #FFFFFF;
+    @include transition( all 0.2s cubic-bezier(0,0,.25,1));
+    z-index: 101;
+    opacity: 0.6;
+    &.show{
+        visibility: visible;
+        bottom:0;
+        opacity: 1;
+    }
+    article{
+        width: 100%;
+        min-height: 4.25rem;   
+        border-bottom:1px solid #e5e5e5;     
+        .img{
+            width: 4.25rem;
+            height: 4.25rem;
+            overflow: hidden;
+            padding: 0.125rem;
+            border:1px solid #e5e5e5;           
+            margin: -0.75rem 0.75rem 0;
+            float: left;
+            background-color:#FFFFFF;
+            img{
+                width: 100%;
+            }
+        }
+        .pro-info{
+            float: left;
+            padding:0.9rem 0.25rem 0 0;
+            line-height: 1rem; 
+            width: 10.2rem;           
+            h3{
+                font-size: 0.7rem;  
+                line-height: 0.75rem;             
+            }
+            p{
+                margin-top:0.25rem; 
+                i{
+                    width: 0.625rem;
+                    height: 0.625rem;
+                    line-height: 0.625rem;
+                    border-radius:50%;
+                    background-color: #e50012;
+                    display: inline-block;
+                    vertical-align: top;
+                    color: #FFFFFF;
+                    font-size: 0.6rem;
+                    text-align:center;
+                    margin: 0.22rem 0.05rem 0;
+                    font-style: normal;
+                }
+                em{
+                    font-style: normal;
+                }
+                .discount{
+                    color:#e50012;
+                    font-size: 0.75rem;
+                    line-height: 1rem;                    
+                }
+                .original{
+                    color: #999999;
+                    font-size: 0.6rem;                                            
+                }
+                .linethrough{
+                    text-decoration: line-through;
+                }  
+            }
+        }
+    }
+    .grid{
+        width: 100%;
+        padding:0 0.75rem;
+        font-size: 0.7rem;
+        border-bottom:1px solid #e5e5e5;        
+        .title{
+            line-height:2rem;
+        }
+        ul{
+            li{
+                float: left;
+                min-width: 3.75rem;
+                height: 1.5rem;
+                margin:0 0.5rem 0.5rem 0;
+                line-height:1.5rem;
+                text-align: center;
+                border:1px solid #e5e5e5;
+                padding:0 0.3rem;
+                &.cur{
+                    background-color: #db2735;
+                    color: #FFFFFF;
+                }
+                &.unclick{
+                    opacity: 0.3;
+                }
+            }
+        }       
+        .stock{
+            font-size: 0.5rem;
+            margin-top: 0.5rem;
+            em{
+                font-style: normal;
+            }
+        } 
+    }    
+    .error-msg{
+        display: none;
+    }
+    .confirmBtn{
+        width: 100%;
+        height: 2.375rem;
+        line-height:2.375rem;
+        text-align: center;
+        color: #FFFFFF;
+        background-color:#db2735;
+        font-size: 0.8rem;
+        position: absolute;
+        bottom:0px;
+        left:0px;
+    }
+}
+.numbox{
+    font-size: 0.7rem;
+    position: relative;
+    overflow: hidden;
+    i{
+        width: 1.5rem;
+        height: 1.5rem;
+        float: left;
+        cursor: pointer;  
+        text-align: center;
+        line-height:1.3rem; 
+        font-style: normal;
+        font-size: 1.3rem;
+        font-weight: bold;
+        display: block;
+        border:1px solid #e5e5e5;
+        &.nodrop{
+            cursor: no-drop;
+            opacity: 0.5;
+        }
+        &:nth-last-child{
+            margin-left: -1px;
+        }
+        &.icon-add--nosprite{
+            margin-left: -1px;
+        }                                                                  
+    }
+    .numbox-text{
+        width: 2.75rem;
+        height: 1.5rem;
+        border:1px solid #e5e5e5;
+        line-height: 1.5rem;
+        text-align: center;     
+        float: left;        
+        box-shadow:none;    
+        margin-left: -1px;     
+        -webkit-appearance: none;     
+        border-radius: 0;  
+        text-indent: 3px;     
+    }
+    .rollstocknum{
+        display:none;
+        width: 2.75rem;
+        height: 1.5rem;
+        border:1px solid #e5e5e5;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 0px;
+        left: 1.5rem;
+        margin-left: -1px;
+        .v{
+            display:block;
+            width: 2.75rem;
+            height:1.5rem;
+            line-height:1.5rem;
+            background:none;
+            text-align:center;
+            position:absolute;
+            left:1px;
+            z-index:10;     
+            transition: all 0.15s;       
+            &.v1{
+                top:1px;
+            }
+            &.vbottom{
+                top:1.5rem;
+            }
+            &.vtop{
+                top:-1.5rem;
+            }     
+        }              
+    }                             
+}
+.scrollview{
+    width: 100%;
+    height: 12.375rem;
+    overflow: hidden;
+    position:relative;
+    .scollwrapper{
+        width: 100%;
+        position:absolute;
+        top: 0px;
+        padding-bottom:2rem;
+        & > .grid{
+            border-bottom:none;
+        }
+    }
+}

@@ -1,0 +1,119 @@
+@import '../sass/sassCore/base';
+
+.normalheader{
+  height: 2.25rem;
+  width: 100%;
+  border-bottom:1px solid #e5e5e5;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.back-link{
+  width: 2.1rem;
+  padding: 0.55rem 0.75rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.back-link img{
+  width: 100%;
+}
+.normalheader h3{
+  font-size: 0.9rem;
+  line-height: 1rem;
+  padding-top: 0.625rem;
+  text-align: center;
+}
+.ucenter-address{
+  padding-bottom:3.5rem;
+  .grid{
+    background-color: #FFFFFF;
+    margin-bottom: 0.5rem;
+    border:1px solid #e5e5e5;
+    border-left:none;
+    border-right:none;    
+    &:first-child{
+      border-bottom:none;
+    }
+  }
+  .address{
+      display: block;
+      position: relative;
+      width: 100%;
+      padding:0 0.75rem;
+      .user{
+         font-size: 0.7rem; 
+         line-height: 1.75rem;
+         .fn-fl{
+              margin-right: 1rem;
+         }        
+      }
+      p{
+          font-size: 0.6rem;
+          padding-bottom: 0.25rem;
+          color:#999999;          
+      }
+      p:last-child{
+          font-size: 0.55rem;
+      }
+  }
+  .action{
+    padding:0 0.75rem;
+    width: 100%;
+    color:#999999;
+    border-top:1px solid #e5e5e5;
+    .checkbox{
+      float: left;
+      line-height: 1.75rem;
+      &:before{
+        content:"";
+        display: inline-block;
+        border:1px solid #999999;
+        border-radius:50%;
+        width:0.8rem;
+        height: 0.8rem;
+        background-color:#FFFFFF;
+        margin: 0 0.25rem 0.15rem 0;
+        vertical-align: middle;
+      }
+      &.default{
+        &:before{
+          border:none;
+          background-image:url(check.png);
+          @include background-size(contain);
+        }
+      }
+    }
+    .fn-fr{
+      text-align:right;
+      line-height: 1.75rem;
+      a{
+        margin: 0 0.25rem;
+        color:#999999;
+      }
+    }
+  }
+  .addBtn{
+    position: fixed;
+    width: 10rem;
+    height: 2rem;
+    bottom:0.75rem;
+    left: 50%;
+    margin-left: -5rem;
+    background-color: #db2735;
+    text-align:center;
+    line-height: 1.9rem;
+    color:#FFFFFF;
+    display: block;
+    font-size:0.9rem;
+    &:before{
+      display: inline-block;
+      content:"";
+      width: 0.95rem;
+      height: 0.95rem;
+      background-image:url(icon.png);
+      @include background-size(contain);
+      margin: 0 0.375rem 0.25rem;
+      vertical-align: middle;
+    }
+  }
+}

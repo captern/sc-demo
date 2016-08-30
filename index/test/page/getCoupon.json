@@ -1,0 +1,202 @@
+{
+  "_Config": {
+    "title": "\u5361\u8def\u91cc\uff0d\u4e13\u4e1a\u8fd0\u52a8\u8425\u517b\u5e73\u53f0",
+    "keywords": "\u5361\u8def\u91cc,\u5361\u8def\u91cc\u5546\u57ce,\u4fdd\u5065\u54c1,\u8fd0\u52a8\u4fdd\u5065\u54c1",
+    "description": "\u5361\u8def\u91cc\u8fd0\u52a8\u4fdd\u5065\u54c1\u5546\u57ce\u662f\u4e00\u5bb6\u63d0\u4f9b\u4e13\u4e1a\u7684\u3001\u9488\u5bf9\u8fd0\u52a8\u7279\u5f81\u5b9a\u5236\u5316\u7684\u4fdd\u5065\u54c1\u5546\u57ce\uff0c\u5305\u62ec\u8fd0\u52a8\u57fa\u7840\u86cb\u767d\u3001\u8fd0\u52a8\u996e\u6599\u3001\u8fd0\u52a8\u4fdd\u62a4\u3001\u6062\u590d\u4f53\u80fd\u7b49\u8fd0\u52a8\u4fdd\u5065\u54c1\uff0c\u54c1\u79cd\u4e30\u5bcc\uff0c\u4efb\u60a8\u8ddf\u9700\u9009\u62e9\u3002",
+    "domain_image": "http:\/\/c1.hoopchina.com.cn\/fis_static\/kalulimobile",
+    "login_url": "http:\/\/passport.kaluli.com\/m\/2?from=m&project=kaluli&appid=10039",
+    "reg_url": "http:\/\/passport.kaluli.com\/m\/2\/index\/register?from=m&project=kaluli&appid=10039",
+    "logout_url": "http:\/\/passport.kaluli.com\/m\/2\/logout?appid=10039"
+  },
+  "_User": {
+    "uid": "21340073",
+    "username": "\u6ca1\u8c01\u4e861"
+  },
+  "lipinka": [{
+    "id": "806",
+    "record_id": "43",
+    "lipinka_id": "27",
+    "account": "oigm2cZc25",
+    "user_id": "21340073",
+    "is_large": "0",
+    "large_id": "0",
+    "postpone_type": "1",
+    "postpone_day": "0",
+    "overdue_time": "0",
+    "stime": "2015-12-03 15:40:01",
+    "etime": "2015-12-12 15:40:03",
+    "status": "1",
+    "create_type": "2",
+    "sync_status": "1",
+    "amount": "30",
+    "card_limit": "order_money=250",
+    "created_at": "2015-12-03 15:41:58",
+    "updated_at": "2015-12-03 15:41:58",
+    "card_limit_parse": {
+      "order_money": "250"
+    }
+  }, {
+    "id": "805",
+    "record_id": "42",
+    "lipinka_id": "27",
+    "account": "X7zwkUihrW",
+    "user_id": "21340073",
+    "is_large": "0",
+    "large_id": "0",
+    "postpone_type": "1",
+    "postpone_day": "0",
+    "overdue_time": "0",
+    "stime": "2015-12-03 15:39:22",
+    "etime": "2015-12-14 15:39:23",
+    "status": "1",
+    "create_type": "2",
+    "sync_status": "1",
+    "amount": "50",
+    "card_limit": "order_money=200",
+    "created_at": "2015-12-03 15:41:58",
+    "updated_at": "2015-12-03 16:40:02",
+    "card_limit_parse": {
+      "order_money": "200"
+    }
+  }, {
+    "id": "802",
+    "record_id": "39",
+    "lipinka_id": "25",
+    "account": "iQiVsqIEgK",
+    "user_id": "21340073",
+    "is_large": "0",
+    "large_id": "0",
+    "postpone_type": "1",
+    "postpone_day": "0",
+    "overdue_time": "0",
+    "stime": "2015-12-03 15:32:08",
+    "etime": "2015-12-11 15:32:12",
+    "status": "1",
+    "create_type": "2",
+    "sync_status": "1",
+    "amount": "10",
+    "card_limit": "order_money=500",
+    "created_at": "2015-12-03 15:33:57",
+    "updated_at": "2015-12-03 15:33:57",
+    "card_limit_parse": {
+      "order_money": "500"
+    }
+  }, {
+    "id": "800",
+    "record_id": "37",
+    "lipinka_id": "23",
+    "account": "oT4oPbyTgq",
+    "user_id": "21340073",
+    "is_large": "0",
+    "large_id": "0",
+    "postpone_type": "1",
+    "postpone_day": "0",
+    "overdue_time": "0",
+    "stime": "1449127622",
+    "etime": "1449905225",
+    "status": "1",
+    "create_type": "2",
+    "sync_status": "1",
+    "amount": "1",
+    "card_limit": "",
+    "created_at": "2015-12-03 15:28:57",
+    "updated_at": "2015-12-03 15:28:57"
+  }, {
+    "id": "710",
+    "record_id": "33",
+    "lipinka_id": "19",
+    "account": "izlXBYmiTQ",
+    "user_id": "21340073",
+    "is_large": "0",
+    "large_id": "0",
+    "postpone_type": "1",
+    "postpone_day": "0",
+    "overdue_time": "0",
+    "stime": "2015-12-01 18:10:26",
+    "etime": "2015-12-31 18:10:30",
+    "status": "1",
+    "create_type": "1",
+    "sync_status": "1",
+    "amount": "1",
+    "card_limit": "order_money=22",
+    "created_at": "2015-12-03 13:24:49",
+    "updated_at": "2015-12-03 16:45:29",
+    "card_limit_parse": {
+      "order_money": "22"
+    }
+  }, {
+    "id": "709",
+    "record_id": "33",
+    "lipinka_id": "19",
+    "account": "pJBgdEatkw",
+    "user_id": "21340073",
+    "is_large": "0",
+    "large_id": "0",
+    "postpone_type": "1",
+    "postpone_day": "0",
+    "overdue_time": "0",
+    "stime": "2015-12-01 18:10:26",
+    "etime": "2015-12-31 18:10:30",
+    "status": "1",
+    "create_type": "1",
+    "sync_status": "1",
+    "amount": "1",
+    "card_limit": "order_money=22",
+    "created_at": "2015-12-03 13:24:49",
+    "updated_at": "2015-12-03 16:45:35",
+    "card_limit_parse": {
+      "order_money": "22"
+    }
+  }, {
+    "id": "487",
+    "record_id": "28",
+    "lipinka_id": "15",
+    "account": "tVkBls5c6X",
+    "user_id": "21340073",
+    "is_large": "0",
+    "large_id": "0",
+    "postpone_type": "1",
+    "postpone_day": "0",
+    "overdue_time": "0",
+    "stime": "2015-12-01 14:10:32",
+    "etime": "2015-12-05 14:10:33",
+    "status": "1",
+    "create_type": "1",
+    "sync_status": "1",
+    "amount": "1",
+    "card_limit": "order_money=88",
+    "created_at": "2015-12-01 14:22:07",
+    "updated_at": "2015-12-03 16:44:41",
+    "card_limit_parse": {
+      "order_money": "88"
+    }
+  }],
+  "coupons":[
+    {
+      "id":"123",
+      "amount":"500",
+      "desc":"300",
+      "received":1
+    },
+    {
+      "id":"123",
+      "amount":"500",
+      "desc":"300"
+    },
+    {
+      "id":"123",
+      "amount":"500",
+      "desc":"300"
+    },
+    {
+      "id":"123",
+      "amount":"500",
+      "desc":"300"
+    },
+    {
+      "id":"123",
+      "amount":"500",
+      "desc":"300"
+    }
+  ]
+}

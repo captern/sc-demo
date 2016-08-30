@@ -1,0 +1,35 @@
+.comment{ padding:0.35rem 0.75rem; background:#fff; margin-top:0.5rem;border-bottom:1px solid #d5d5d5;border-top:1px solid #d5d5d5;}
+.comment .h2{ font-size: 0.7rem; color:#000; font-weight:bold;}
+.comment>.tags{ width:100%;padding-bottom:0.2rem;}
+.comment>.tags span{ padding:0.2rem; margin-top: 10px; border:1px solid #EAEAEA; font-size:0.6rem; border-radius: 5px; display:inline-block; margin-right: 8px; color:#666;}
+
+.comment-list{ border-top: 1px solid #e6e6e6;margin-top: 10px;}
+.comment-list li{
+    width:100%; overflow:hidden; display:-webkit-box; /* android 2.1-3.0, ios 3.2-4.3 */
+    display:-webkit-flex; /* Chrome 21+ */
+    display:-ms-flexbox; /* WP IE 10 */
+    display:flex; /* android 4.4 */;
+    border-bottom: 1px solid #e6e6e6;
+    padding:1em 0px;  
+}
+.comment-list .imgs{ width:14%; text-align: center;}
+.comment-list .imgs img{ width:100%; border-radius: 5px; display:block;overflow:hidden;}
+.comment-list .imgs p{ width:100%; overflow:hidden;text-overflow: ellipsis; white-space: nowrap;font-size:0.6rem;}
+.comment-list .details{ -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; padding-left: 0.6rem; }
+.comment-list .details .tags{ width:100%; margin-bottom: 4px;}
+.comment-list .details .tags span{ font-size:0.56rem;background:#fff3f0;color:#666666; padding:0.2em 0.4em; display:inline-block; margin-right:6px; border-radius: 5px; }
+.comment-list .details .txt{ color:#333333; font-size: 0.65rem;}
+.comment-list .details .time{ color:#999999;font-size: 0.6rem;}
+.comment .more{
+    text-align: center;
+    margin-top:0.5rem;
+    a{
+        color:#666666;
+        font-size:0.6rem;
+    }
+    img{
+        width:0.3rem;
+        margin-left:0.5rem;
+    }
+}
+.comment .more>a{ display:block;}

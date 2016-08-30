@@ -1,0 +1,54 @@
+.pagewrap{
+    width: 100%;
+    .grid{
+        border:1px solid #e5e5e5;
+        background-color: #FFFFFF;
+        margin-top: 0.5rem;
+        border-left:none;
+        border-right:none;
+        .title{
+            margin: 0 0.75rem;
+            border-bottom:1px solid #e5e5e5;
+            line-height: 1.5rem;
+            font-size: 0.6rem;
+            color:#444444;
+        }
+    }
+    .logistics{
+        margin: 0.75rem;    
+        li{
+            border-left:1px solid #e5e5e5;
+            padding:0 0.5rem 0.75rem;
+            position: relative;
+            &:before{
+                content:'';
+                display: block;
+                position:absolute;
+                width: 0.5rem;
+                height:0.5rem;
+                background-color:#bcbcbc;
+                border:2px solid #eaeaea;
+                border-radius:50%;
+                top: 0;
+                left:-0.25rem;
+            }
+            p{
+                line-height: 0.7rem;
+                font-size:0.6rem;
+                color:#999999;
+            }
+            &.on{
+                p:first-child{
+                    color:#1b9fe4;
+                }
+                &:before{
+                    background-color:#1b9fe4;
+                    border:2px solid #b8def1;
+                }
+            }
+            &:last-child{
+                border:none;
+            }
+        }
+    }
+}

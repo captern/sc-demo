@@ -1,0 +1,49 @@
+{
+    "_Config": {
+        "title": "卡路里－专业运动营养平台",
+        "keywords": "卡路里,卡路里商城,保健品,运动保健品",
+        "description": "卡路里运动保健品商城是一家提供专业的、针对运动特征定制化的保健品商城，包括运动基础蛋白、运动饮料、运动保护、恢复体能等运动保健品，品种丰富，任您跟需选择。",
+        "domain_image": "http://c1.hoopchina.com.cn/fis_static/kalulimobile",
+        "login_url": "http://passport.kaluli.com/m/2?from=m&project=kaluli&appid=10039",
+        "reg_url": "http://passport.kaluli.com/m/2/index/register?from=m&project=kaluli&appid=10039",
+        "logout_url": "http://passport.kaluli.com/m/2/logout?appid=10039"
+    },
+    "_Seo":{
+        "title":"卡路里-宝贝评价",
+        "pageTitle":"宝贝评价",
+        "keywords":"卡路里",
+        "description":"卡路里"
+    },
+    "_User": {
+        "uid": "21340073",
+        "username": "没谁了1"
+    },
+    "img": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1515/1d8880fcd056a67be64270ab5cd018c8.jpg",
+    "tags": [
+        {
+            "id": 3,
+            "name": "确实是正品"
+        },
+        {
+            "id": 4,
+            "name": "物流太慢了"
+        },
+        {
+            "id": 5,
+            "name": "东西不错"
+        },
+        {
+            "id": 6,
+            "name": "物流很快"
+        }
+    ],
+    "price": "289.00",
+    "num": "1",
+    "title": "美瑞克斯 葡萄糖胺软骨素MSM软胶囊",
+    "attr": {
+        "规格": "120粒"
+    },
+    "order_number": "1508215693802022",
+    "product_id": 69,
+    "goods_id": 153
+}

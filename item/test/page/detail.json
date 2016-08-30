@@ -1,0 +1,195 @@
+{
+    "_Config": {
+        "title": "卡路里－专业运动营养平台",
+        "keywords": "卡路里,卡路里商城,保健品,运动保健品",
+        "description": "卡路里运动保健品商城是一家提供专业的、针对运动特征定制化的保健品商城，包括运动基础蛋白、运动饮料、运动保护、恢复体能等运动保健品，品种丰富，任您跟需选择。",
+        "domain_image": "http://c1.hoopchina.com.cn/fis_static/kalulimobile",
+        "login_url": "http://passport.kaluli.com/m/2?from=m&project=kaluli&appid=10039",
+        "reg_url": "http://passport.kaluli.com/m/2/index/register?from=m&project=kaluli&appid=10039",
+        "logout_url": "http://passport.kaluli.com/m/2/logout?appid=10039"
+    }, 
+    "_Seo":{
+        "title":"卡路里-商品详情",
+        "pageTitle":"宝贝详情",
+        "keywords":"卡路里",
+        "description":"卡路里"
+    },
+    "_User": {
+        "uid": "0",
+        "username": "没谁了1"
+    },
+    "res": {
+        "storehouseDefault":"",
+        "item": {
+            "id": "69",
+            "title": "美瑞克斯 葡萄糖胺软骨素MSM软胶囊",
+            "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/1515/1d8880fcd056a67be64270ab5cd018c8.jpg",
+            "brand_id": "1",
+            "sell_point": "有效修复关节、减轻疼痛",
+            "intro": "全面提供优质关节营养成份，含精确比例欧米伽-3、6、9脂肪酸，有效修复关节、减轻疼痛。",
+            "price": "300.00",
+            "discount_price": "298.00",
+            "status": "3",
+            "created_at": "2015-06-15 15:26:51",
+            "content": "<p style=\"text-align: center\"><img src=\"http://shihuo.hupucdn.com/ucditor/20150723/02ff692d4c4c95cdc5c29c44ce4d3fa31437625754.jpg\"/></p><p style=\"text-align: center\"><img src=\"http://shihuo.hupucdn.com/ucditor/20150723/90a83f4c8a0785e46b8d999e76fd3eba1437625804.jpg\" style=\"\"/></p><p style=\"text-align: center\"><img src=\"http://shihuo.hupucdn.com/ucditor/20150723/efdee49751729281812cf9b0a7d740871437625804.jpg\" style=\"\"/></p><p style=\"text-align: center\"><img src=\"http://shihuo.hupucdn.com/ucditor/20150723/9faa9d51168b019703e2d8980e25a3a81437625872.jpg\" style=\"\"/></p><p style=\"text-align: center\"><img src=\"http://shihuo.hupucdn.com/ucditor/20150723/64c25806407ba57fc4d8ffacec756c501437625874.jpg\" style=\"\"/></p><p style=\"text-align: center\"><img src=\"http://shihuo.hupucdn.com/ucditor/20150723/0749108f62efe497ce63d3b36cdf240e1437625877.jpg\" style=\"\"/></p><p style=\"text-align: center\"><img src=\"http://shihuo.hupucdn.com/ucditor/20150723/b3dd2c65c0a68a3cdfc8d6340959536d1437625879.jpg\" style=\"\"/></p><p style=\"text-align: center\"><img src=\"http://shihuo.hupucdn.com/ucditor/20150723/cbdacd1643034a8fee8eff7c6420d2011437625882.jpg\" style=\"\"/></p><p><br/></p>",
+            "comment_count": "16",
+            "comment_imgs_count": "5",
+            "comment_tags_count": {
+                "确实是正品": 1,
+                "物流太慢了": 1,
+                "东西不错": 1
+            },
+            "sales_count": "89",
+            "review": "点评下会死啊",
+            "pic_detail": [
+                "http://shihuo.hupucdn.com/uploads/kaluli/item/detail/201506/1515/47b03c497473966efa4b611d977c2be2.jpg",
+                "http://shihuo.hupucdn.com/uploads/kaluli/item/detail/201506/1515/542ae9c4f5b89de900677336e31978ba.jpg"
+            ],
+            "attrs": {
+                "配料表": "2131312312",
+                "保质期": "360天啊123123",
+                "适用人群": "12312123123",
+                "产品剂型": "12312123",
+                "计价单位": "12312阿达阿斯大",
+                "品牌": "12312阿萨德阿斯大",
+                "产地": "1231212312",
+                "规格": "12312阿萨德啊", 
+                "22222": "22222安德森啊"
+            },
+            "tags": {
+                "1": [
+                    "强效配方"
+                ],
+                "2": [
+                    "矿物质补剂"
+                ]
+            }
+        },
+        "sku": [
+            {
+                "id": "153",
+                "item_id": "69",
+                "code": "786560173612",
+                "attr": "a:1:{s:4:\"attr\";a:1:{s:6:\"规格\";s:6:\"120粒\";}}",
+                "ware_sku": "120粒",
+                "price": "300.00",
+                "discount_price": "298.00",
+                "weight": "1",
+                "pic": "",
+                "total_num": "99832",
+                "lock_num": "163",
+                "storehouse_id": "1",
+                "status": "0",
+                "wupdate_time": "1442821072"
+            }
+        ],
+        "attr": {
+            "detail": {
+                "10": {
+                    "itemId": "69",
+                    "skuId": "153",
+                    "stock": "99832",
+                    "price": "300.00",
+                    "discountPrice": "298.00",
+                    "status": "0",
+                    "storehouse_name": "佛山",
+                    "storehouse_note":"香港"
+                },
+                "11": {
+                    "itemId": "69",
+                    "skuId": "153",
+                    "stock": "99832",
+                    "price": "300.00",
+                    "discountPrice": "298.00",
+                    "status": "0",
+                    "storehouse_name": "上海",
+                    "storehouse_note":"郑州"
+                }
+            },
+            "attr": [
+                {
+                    "data": {
+                        "10": {
+                            "name": "120粒",
+                            "alias": 10
+                        }
+                    },
+                    "name": "规格"
+                }
+            ]
+        },
+        "stock": 99832
+    },
+    "sku": {
+        "detail": {
+            "10": {
+                "itemId": "69",
+                "skuId": "153",
+                "stock": "99832",
+                "price": "300.00",
+                "discountPrice": "298.00",
+                "status": "0",
+                "storehouse_name": "上海"
+            }
+        },
+        "attr": [
+            {
+                "data": {
+                    "10": {
+                        "name": "120粒",
+                        "alias": 10
+                    }
+                },
+                "name": "规格"
+            }
+        ]
+    },
+    "articleRecommend": [
+        [
+            {
+                "id": "16",
+                "title": "训练肌肉-减少脂肪------文章？"
+            },
+            {
+                "id": "26",
+                "title": "塑造形体-----------文章？"
+            },
+            {
+                "id": "32",
+                "title": "恢复体能-----------文章？"
+            },
+            {
+                "id": "25",
+                "title": "提升训练-----------文章？"
+            }
+        ]
+    ],
+    "typeTags": [
+        "矿物质补剂"
+    ],
+    "catr_number": "1",
+    "comment": {
+        "user_head": "http://shihuoproxy.hupucdn.com/aHR0cDovL2Jicy5odXB1LmNvbS9iYnNrY3kvYXBpX25ld19pbWFnZS5waHA_dWlkPTIxMzQwMDczJnR5cGU9Ymln",
+        "user_name": "没***",
+        "attr": {
+            "规格": "120粒"
+        },
+        "content": "哈哈哈哈哈哈哈哈哈哈哈哈哈",
+        "created_at": "2015-12-21 17:52:44",
+        "tags_attr": [
+            "确实是正品",
+            "物流太慢了",
+            "东西不错"
+        ],
+        "imgs": [
+            "http://shihuo.hupucdn.com/kaluli.order.comment.cover/20151221/ee466748336d7e86a2c429bc7bf3a3c71450691558.jpg"
+        ]
+    },
+     "activitys": {
+        "modeName": "折扣", 
+        "data": {
+            "15": "满2件打50折",
+            "12": "满1件打80折"
+        }
+    }
+}

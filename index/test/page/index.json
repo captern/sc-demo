@@ -1,0 +1,292 @@
+{
+    "_config":{
+        "siteurl":""
+    },
+    "_Seo":{
+        "title":"卡路里首页",
+        "keywords":"卡路里",
+        "description":"卡路里"
+    },
+    "_User":{
+        "uid":"123123",
+        "username":"哈哈"
+    },
+    "slides":[{
+        "sort":"23",
+        "title":"d222",
+        "url":"http://www.baidu.com",
+        "color":"#ccc",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201507/1612/f5300d99207bd510ed203d498fa96d4f.jpg"
+    },{
+        "sort":"23",
+        "title":"d222",
+        "url":"http://www.baidu.com",
+        "color":"#ccc",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201507/1612/ac6178bbba80a289f152deaf9017c3e0.jpg"
+    }],
+    "brands":[{
+        "sort":"8",
+        "title":"你好啊",
+        "url":"http://www.kaluli.com/",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201506/0718/0c033c86ae91908c08b425e0a39c5fac.jpg"
+    },{
+        "sort":"8",
+        "title":"你好啊",
+        "url":"http://www.kaluli.com/",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201506/0718/b87b9aff3859d8cb7fa4ee8f76627ba0.jpg"
+    },{
+        "sort":"8",
+        "title":"你好啊",
+        "url":"http://www.kaluli.com/",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201506/0718/a40d3ea4d062137e9c0ed63d1daf6ce1.png"
+    },{
+        "sort":"8",
+        "title":"你好啊",
+        "url":"'http://www.kaluli.com/",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201506/0718/26644dbb0b22bfce246254c723f2abab.jpg"
+    },{
+        "sort":"8",
+        "title":"你好啊",
+        "url":"http://www.kaluli.com/",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201506/0718/6c2f3588d7cb755b1316e2ddd7f3e437.jpg"
+    },{
+        "sort":"8",
+        "title":"你好啊",
+        "url":"http://www.kaluli.com/",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201506/0714/c9ce76b683533d3e5c5b7aa815e02110.gif"
+    },{
+        "sort":"8",
+        "title":"你好啊",
+        "url":"http://www.kaluli.com/",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201506/0721/95ab3c2d5217e3480a21c77019b847b3.jpg"
+    },{
+        "sort":"8",
+        "title":"你好啊",
+        "url":"http://www.kaluli.com/",
+        "pic":"http://shihuo.hupucdn.com/kaluli_index/201506/0721/7748fb94ccb5d8deaf5f4eeb3c1833bc.jpg"
+    }],
+    "_floors":{
+        "xljr": {
+            "name": "训练肌肉",
+            "item_data": [
+                {
+                    "id": "228",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/3014/fb9de0d52e0d264e49f97400e95fdc1c.jpg",
+                    "price": "2.00",
+                    "discount_price": "1.00",
+                    "sell_point": "aaaaa",
+                    "title": "umbrella"
+                },
+                {
+                    "id": "225",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0318/0d1e6190305b1d11586775478c53a408.jpg",
+                    "price": "50.00",
+                    "discount_price": "10.00",
+                    "sell_point": "aasd",
+                    "title": "下架SKU的商品"
+                },
+                {
+                    "id": "224",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0116/096c1685aff147f5948533de0f4946ef.jpg",
+                    "price": "2.00",
+                    "discount_price": "1.00",
+                    "sell_point": "自然之宝---------2000块",
+                    "title": "自然之宝---------2000块"
+                },
+                {
+                    "id": "45",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2119/05f62b4beac18c24660d90491408b769.jpg",
+                    "price": "12.00",
+                    "discount_price": "0.50",
+                    "sell_point": "好的东西",
+                    "title": "/训练肌肉-----------商品"
+                },
+                {
+                    "id": "36",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2118/05f2f07daba0a7b31b5e543302a8769d.jpg",
+                    "price": "10.00",
+                    "discount_price": "5.00",
+                    "sell_point": "好东西很赞",
+                    "title": "/训练肌肉-体重管理------商品"
+                },
+                {
+                    "id": "46",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2120/7730be4ebfd3b6ed64cf0de53a3dfa76.jpg",
+                    "price": "5.00",
+                    "discount_price": "1.00",
+                    "sell_point": "柠檬味，更容易接受的味道！",
+                    "title": "/训练肌肉-----------商品"
+                }
+            ]
+        },
+        "jszf": {
+            "name": "体重管理",
+            "item_data": [
+                {
+                    "id": "36",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2118/05f2f07daba0a7b31b5e543302a8769d.jpg",
+                    "price": "10.00",
+                    "discount_price": "5.00",
+                    "sell_point": "好东西很赞",
+                    "title": "/训练肌肉-体重管理------商品"
+                },
+                {
+                    "id": "33",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2018/af7a00c4c5babbc51ac27e0762adad98.jpg",
+                    "price": "2222.00",
+                    "discount_price": "333.00",
+                    "sell_point": "全网最低 手机再减 拍就送赠品 减脂增肌必备1",
+                    "title": "/训练肌肉-体重管理-补充提成-商品"
+                },
+                {
+                    "id": "35",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2019/393b4bd4ded2955ea6b51a758d398394.jpg",
+                    "price": "10.00",
+                    "discount_price": "1.00",
+                    "sell_point": "速度苏打速度阿萨德阿萨德阿斯",
+                    "title": "/训练肌肉-体重管理-提升训练-商品"
+                }
+            ]
+        },
+        "hftn": {
+            "name": "补充体能",
+            "item_data": []
+        },
+        "zzxt": {
+            "name": "塑造形体",
+            "item_data": [
+                {
+                    "id": "32",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2017/1db60efe83291f04671395fc33ca451b.jpg",
+                    "price": "2.00",
+                    "discount_price": "1.00",
+                    "sell_point": "防治心脑血管疾病，调节身体健康！",
+                    "title": "/塑造形体-----------商品"
+                }
+            ]
+        },
+        "gjbh": {
+            "name": "关节保护",
+            "item_data": [
+                {
+                    "id": "223",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0111/1a80738f1ed98f20043602ad7f0a34ed.jpg",
+                    "price": "1200.00",
+                    "discount_price": "1100.00",
+                    "sell_point": "普丽普莱---------1000块",
+                    "title": "普丽普莱---------1000块"
+                }
+            ]
+        },
+        "tsxl": {
+            "name": "提升训练",
+            "item_data": [
+                {
+                    "id": "38",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2118/c02157da3d63016e8bc8389f33e3d411.jpg",
+                    "price": "160.00",
+                    "discount_price": "160.00",
+                    "sell_point": "非常不错",
+                    "title": "/提升训练-练后补充-促进睾酮-商品"
+                },
+                {
+                    "id": "35",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2019/393b4bd4ded2955ea6b51a758d398394.jpg",
+                    "price": "10.00",
+                    "discount_price": "1.00",
+                    "sell_point": "速度苏打速度阿萨德阿萨德阿斯",
+                    "title": "/训练肌肉-体重管理-提升训练-商品"
+                },
+                {
+                    "id": "39",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2118/5c2300625cc7a8de24ef24c81678a4c7.jpg",
+                    "price": "23.00",
+                    "discount_price": "2.00",
+                    "sell_point": "非常好的东西",
+                    "title": "/提升训练-练后补充-促进睾酮-商品"
+                }
+            ]
+        },
+        "lhbc": {
+            "name": "练后补充",
+            "item_data": [
+                {
+                    "id": "38",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2118/c02157da3d63016e8bc8389f33e3d411.jpg",
+                    "price": "160.00",
+                    "discount_price": "160.00",
+                    "sell_point": "非常不错",
+                    "title": "/提升训练-练后补充-促进睾酮-商品"
+                },
+                {
+                    "id": "39",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2118/5c2300625cc7a8de24ef24c81678a4c7.jpg",
+                    "price": "23.00",
+                    "discount_price": "2.00",
+                    "sell_point": "非常好的东西",
+                    "title": "/提升训练-练后补充-促进睾酮-商品"
+                }
+            ]
+        },
+        "cjgt": {
+            "name": "促进睾酮",
+            "item_data": [
+                {
+                    "id": "38",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2118/c02157da3d63016e8bc8389f33e3d411.jpg",
+                    "price": "160.00",
+                    "discount_price": "160.00",
+                    "sell_point": "非常不错",
+                    "title": "/提升训练-练后补充-促进睾酮-商品"
+                },
+                {
+                    "id": "39",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2118/5c2300625cc7a8de24ef24c81678a4c7.jpg",
+                    "price": "23.00",
+                    "discount_price": "2.00",
+                    "sell_point": "非常好的东西",
+                    "title": "/提升训练-练后补充-促进睾酮-商品"
+                },
+                {
+                    "id": "34",
+                    "pic": "http://shihuo.hupucdn.com/uploads/kaluli/item/201505/2019/89e81bb4797a803308b7c2267af92910.jpg",
+                    "price": "2.00",
+                    "discount_price": "1.00",
+                    "sell_point": "好的东西啊1的东西啊的东西啊的东西啊的东西啊的东西啊的东西啊",
+                    "title": "/训练肌肉-促进睾酮------商品"
+                }
+            ]
+        }
+    },
+    "coupons":[
+        {
+            "id":"123",
+            "amount":"500",
+            "desc":"300"
+        },
+        {
+            "id":"123",
+            "amount":"500",
+            "desc":"300"
+        },
+        {
+            "id":"123",
+            "amount":"500",
+            "desc":"300"
+        },
+        {
+            "id":"123",
+            "amount":"500",
+            "desc":"300"
+        },
+        {
+            "id":"123",
+            "amount":"500",
+            "desc":"300"
+        }
+    ],
+    "newUserAct":{
+        "stime":"1456130014",
+        "etime":"1456131114"
+    }
+}

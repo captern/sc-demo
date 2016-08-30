@@ -1,0 +1,180 @@
+@import "/static/sass/sassCore/base";
+.panictab{
+  border: 1px solid red;
+  .tab-nav{
+    background-color: #373737;
+    height: pxToRem(88);
+    color: #FFFFFF;
+    h5{
+      font-size: pxToRem(28);
+      margin-top: pxToRem(12);
+    }
+    small{font-size: pxToRem(18);position: relative;top:pxToRem(-4)}
+    li{
+      width: 50%;
+      height: inherit;
+      border: 0;
+      text-align: center;
+    }
+    .cur{
+      background-color: red;
+    }
+
+  }
+  .banner{
+    width: 100%;
+    height: pxToRem(152);
+  }
+  .tab-body{
+    background-color: #fff;
+    .timeTip{
+      background-color: #f1f2f6;
+      border: 1px solid #e5e5e5;
+      font-size: pxToRem(18);
+      display: inline-block;
+      width: 100%;
+      height: pxToRem(45);
+      line-height: pxToRem(45);
+      span{
+        &:first-child{
+          float: left;
+          color: #333333;
+          padding-left: pxToRem(15);
+        }
+        &:last-child{
+          float: right;
+          padding-right: pxToRem(15);
+        }
+        time{
+//          display: inline-block;
+          background-color: #373737;
+          border-radius: 3px;
+          color: #fff;
+          padding: 2px;
+          &:first-child{
+            margin-left: 15px;
+          }
+        }
+      }
+
+    }
+    .goods-list{
+      width:100%;
+      background: #FFFFFF;
+      ul{
+        width: 100%;
+        li{
+          width: 100%;
+          min-height: 5.75rem;
+          border-bottom:1px solid #e5e5e5;
+          a{
+            display: flex;
+            flex:1;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            .activity-tag{
+              line-height: 0.75rem;
+              font-size: 0.55rem;
+              padding: 0 0.125rem;
+              color: #FFFFFF;
+              display: inline-block;
+              background-color: #e50012;
+              margin:0.1rem  0.25rem 0 0;
+              vertical-align: top;
+            }
+            .img{
+              width: 5rem;
+              float: left;
+              min-height: 4.25rem;
+              overflow: hidden;
+              margin-top: 0.6rem;
+              img{
+                max-width: 4.25rem;
+                height: 4.25rem;
+                margin: 0 auto;
+                display: block;
+              }
+            }
+            .info{
+              width: 10.75rem;
+              float: right;
+              margin-top: 0.6rem;
+              min-height: 2.25rem;
+              padding-bottom: 1rem;
+              position:relative;
+              p{
+                line-height: 1rem;
+                font-size: 0.7rem;
+                word-wrap: break-word;
+                padding-right:0.6rem;
+                max-height: 2rem;
+                overflow: hidden;
+                &:nth-child(2){
+                  font-size: 0.65rem;
+                  color: #999999;
+                  max-height: 2rem;
+                  overflow: hidden;
+                }
+              }
+              button{
+                position: absolute;
+                top:2.7rem;
+                right: 0;
+                width: pxToRem(135);
+                height: pxToRem(55);
+                color: #fff;
+                background-color: #e50012;
+                border-radius: pxToRem(10);
+                border: 0;
+              }
+              .price{
+                position: absolute;
+                top:2.7rem;
+                left: 0px;
+                width: 100%;
+                .discount{
+                  color:#e50012;
+                  font-size: 0.75rem;
+                  line-height: 1rem;
+                  display: inline-block;
+                  i{
+                    width: 0.625rem;
+                    height: 0.625rem;
+                    line-height: 0.625rem;
+                    border-radius:50%;
+                    background-color: #e50012;
+                    display: inline-block;
+                    vertical-align: middle;
+                    color: #FFFFFF;
+                    font-size: 0.6rem;
+                    text-align:center;
+                    margin: 0 0.05rem 0.1rem 0;
+                    font-style: normal;
+                  }
+                }
+                .discount-num{
+                  color: #FFFFFF;
+                  font-size: 0.75rem;
+                  line-height: 1rem;
+                  display: inline-block;
+                  background-color: #e50012;
+                  border-radius: 6px;
+                  margin-left: 20px;
+                  padding: 2px;
+                }
+                .original{
+                  color: #999999;
+                  font-size: 0.6rem;
+                  &.linethrough{
+                    text-decoration: line-through;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

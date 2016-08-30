@@ -1,0 +1,131 @@
+@import "/static/sass/sassCore/base";
+.floors{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top:0.5rem;    
+    h3{
+        display: block;
+        font-size: 0.7rem;
+        line-height: 2rem;
+        border-bottom:1px solid #e5e5e5;
+        font-weight: bold;
+        position: relative;
+        margin-bottom: 1px;
+        &:before{
+            width: 1.45rem;
+            height: 1.45rem;
+            content: "";
+            @include background-size(contain);
+            background-repeat: no-repeat;
+            background-color: transparent;
+            display: inline-block;
+            margin: 0 0.625rem 0.2rem;
+            vertical-align: middle;
+        }
+        a{
+            display: inline-block;
+            width: 13rem;
+            &:after{
+                @include background-size(contain);
+                position:absolute;
+                right: 0.75rem;
+                top: 0.6rem;
+                display: block;
+                width: 0.425rem;
+                height:0.8rem; 
+                content: "";
+                background: url(icon.png) no-repeat center center transparent;
+            }        
+        }        
+    }    
+    ul{
+        width: 100%;
+        li{
+            width: 100%;
+            min-height: 5.75rem;
+            border-bottom:1px solid #e5e5e5;
+            a{
+                display: flex;
+                flex:1;
+                -webkit-box-flex: 1;
+                -webkit-flex: 1;
+                .img{
+                    width: 5rem;
+                    float: left;
+                    min-height: 4.25rem;
+                    overflow: hidden;
+                    margin-top: 0.6rem;
+                    img{
+                        max-width: 4.25rem;
+                        height: 4.25rem;
+                        margin: 0 auto;
+                        display: block; 
+                    }
+                }
+                .info{
+                    width: 10.75rem;
+                    float: right;
+                    margin-top: 0.6rem;
+                    min-height: 2.25rem;
+                    padding-bottom: 1rem;
+                    position:relative;
+                    p{
+                        line-height: 1rem;
+                        font-size: 0.7rem;
+                        &:nth-child(2){
+                            font-size: 0.65rem;
+                            color: #999999;
+                            max-height: 2rem;
+                            overflow: hidden;
+                        }
+                    }
+                    .price{
+                        position: absolute;
+                        top:3.7rem;
+                        left: 0px;
+                        width: 100%;
+                        .discount{
+                            color:#e50012;
+                            font-size: 0.75rem;
+                            line-height: 1rem;
+                            display: inline-block;
+                            i{
+                                width: 0.625rem;
+                                height: 0.625rem;
+                                line-height: 0.625rem;
+                                border-radius:50%;
+                                background-color: #e50012;
+                                display: inline-block;
+                                vertical-align: middle;
+                                color: #FFFFFF;
+                                font-size: 0.6rem;
+                                text-align:center;
+                                margin: 0 0.05rem 0.2rem 0;
+                                font-style: normal;
+                            }
+                        }
+                        .original{
+                            color: #999999;
+                            font-size: 0.6rem;
+                            &.linethrough{
+                                text-decoration: line-through;
+                            }                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+$bordercolor:#f84c4c #ff9d1e #63a835 #1baed1 #7822e4 #ffae00 #ff9200 #89bd00;
+@for $i from 1 to 9 {
+    .floors:nth-child(#{$i}){
+        h3{
+            border-left:0.15rem solid nth($bordercolor,$i);
+            &::before{
+                background-image:url("group-icon#{$i}.png");
+            }
+        }
+    }
+}

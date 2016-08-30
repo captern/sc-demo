@@ -1,0 +1,79 @@
+@import "/static/sass/sassCore/base";
+.product-content{
+    background-color:#FFFFFF;
+    margin-top: 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid #d4d4d4;
+    .swtich-top{
+        width: 100%;
+        height: 2rem;
+        line-height: 2rem;
+        border-top: 1px solid #d4d4d4;
+        text-align: center;      
+        background: #FFFFFF;  
+        z-index: 50;
+        border-bottom: 1px solid #d4d4d4;
+        ul{
+            height: 2rem;
+            li{
+                display: inline-block;
+                font-size: 0.7rem;
+                width:30%;
+                height: 2rem;
+                &.on{
+                    color:#e50012;
+                    border-bottom:1px solid #e50012;
+                    background:url("j.png") center bottom no-repeat;
+                }
+            }
+        }
+    }
+    .prodetail{
+        .pro-detail{
+            padding:0.75rem;
+            padding-top:1rem;
+            width: 100%; 
+            font-size: 0.65rem;
+            img{
+                max-width: 14.5rem;
+                display: block;
+                margin: 0 auto;
+            }
+            p{
+                font-size: 0.6rem!important;
+                line-height: 1rem!important;
+                span{
+                    font-size: 0.6rem!important;
+                    line-height: 1rem!important;
+                }
+            }
+            .attrs{
+                p{
+                    font-size: 0.55rem!important;
+                    line-height: 1.55rem!important;  
+                    color:#666;
+                }
+                span{
+                    display:inline-block;
+                    width:30%;
+                    color:#999999;
+                    font-size: 0.65rem!important;
+                }
+            }
+        }
+        .aboutus{
+            width: 100%;
+            padding-top:2rem;
+            img{
+                width: 100%;
+            }
+        }
+        .qa{
+            width: 100%;
+            padding-top:2rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

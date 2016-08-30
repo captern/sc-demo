@@ -1,0 +1,43 @@
+@import "/static/sass/sassCore/base";
+*{box-sizing: border-box}
+$bordercolor : #dadada;
+.nav-grid{
+  width: 100%;
+  background-color: #FFFFFF;
+  display: block;
+  border-bottom: pxToRem(1) solid $bordercolor;
+  border-top: pxToRem(1) solid $bordercolor;
+  padding: 0 pxToRem(20);
+  li{
+    float: left;
+    text-align: center;
+    height: pxToRem(70);
+    line-height: pxToRem(70);
+    font-size: pxToRem(26);
+    position: relative;
+    &:last-child{float: right}
+    a{
+      display: inline-block;
+      padding: 0 pxToRem(6) 0 pxToRem(10);
+      position: relative;
+      .shoppingmal{
+        position: relative;
+        left: pxToRem(-6);
+        top:pxToRem(-3);
+        width: pxToRem(32);
+        height: pxToRem(32);
+      }
+    }
+    .anger{
+      height: 100%;
+    }
+    .logo{
+      border-right: pxToRem(1) solid $bordercolor;
+      padding-right: pxToRem(20);
+      img{
+        width: pxToRem(130);
+        height: pxToRem(50);
+      }
+    }
+  }
+}

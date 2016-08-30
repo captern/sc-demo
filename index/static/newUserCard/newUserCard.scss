@@ -1,0 +1,39 @@
+@import "../../static/sass/sassCore/base";
+.content{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.page1{
+  background-color: #eccf48;
+  padding: 0 0.625rem 0.625rem 0.625rem;
+  .coupon{
+    width: 4.975rem;
+    position: absolute;
+    top:8.5rem;
+    left: 50%;
+    @include transform(translateX(-50%));
+  }
+  .bg{
+    position: relative;
+    margin-bottom: 0.25rem;
+  }
+  article{
+    background-color: #e83a36;
+    color: #FFFFFF;
+    padding: 0 0.375rem 0.375rem 0.375rem;
+    font-family: "黑体";
+    h3{
+      line-height: 1.625rem;
+      font-size: 0.6rem;
+      margin-bottom: 0.25rem;
+      border-bottom: 2px dotted #ffffff;
+    }
+    li{
+      list-style-type: disc;
+      font-size: 0.5rem;
+      line-height: 1.05rem;
+      margin-left: 0.5rem;
+    }
+  }
+}

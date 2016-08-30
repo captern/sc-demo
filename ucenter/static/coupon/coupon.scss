@@ -1,0 +1,234 @@
+@import "../sass/sassCore/base";
+.getCoupon{
+  font-size: 0.7rem;
+  position: absolute;
+  height: 2.25rem;
+  line-height: 3.2rem;
+  top: -0.375rem;
+  right: 0.4rem;
+  color: #333333;
+}
+.mycoupon{
+  padding: 0.375rem 0.375rem 0 0.375rem;
+  position: relative;
+  li{
+    background-color: #FFFFFF;
+    display: block;
+    height: 3.5rem;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    @include flex(1);
+    margin-bottom: 0.375rem;
+    &:before{
+      content: "";
+      display: block;
+      width: 0.625rem;
+      height: 0.625rem;
+      top: 50%;
+      margin: -0.312rem 0 0 -0.312rem;
+      left: 0;
+      @include border-radius(50%);
+      background-color: #f3f3f3;
+      position: absolute;
+    }
+    &:after{
+      content: "";
+      display: block;
+      width: 0.625rem;
+      height: 0.625rem;
+      top: 50%;
+      margin: -0.312rem -0.312rem 0 0;
+      right: 0;
+      @include border-radius(50%);
+      background-color: #f3f3f3;
+      position: absolute;
+    }
+    .coupon-info{
+      padding: 0 0.25rem 0 2.625rem;
+      width: 68%;
+      &:before{
+        content: "";
+        display: block;
+        width: 1.75rem;
+        height: 1.75rem;
+        position: absolute;
+        left: 0.625rem;
+        top: 50%;
+        margin-top:-0.87rem;
+        background: url(mycoupon-icon.png) no-repeat center top transparent;
+        @include background-size(contain);
+      }
+      p{
+        line-height: 1.1rem;
+        @include  ellipsis;
+        &:nth-child(1){
+          font-size: 0.65rem;
+          color: #e50012;
+        }
+        &:nth-child(2){
+          font-size: 0.8rem;
+          color: #333333;
+        }
+        &:nth-child(3){
+          font-size: 0.6rem;
+          color: #999999;
+        }
+      }
+    }
+    .coupon-price{
+      width: 32%;
+      line-height: 3.5rem;
+      background-color: #db2735;
+      color: #FFFFFF;
+      font-size: 0.65rem;
+      text-align: center;
+      position: relative;
+      i{
+        font-style: normal;
+        font-size: 1.2rem;
+      }
+      &:before{
+        content: "";
+        width: 0.5rem;
+        height: 0.5rem;
+        @include border-radius(50%);
+        display: block;
+        position: absolute;
+        background-color: #f3f3f3;
+        top: -0.25rem;
+        left: -0.25rem;
+      }&:after{
+         content: "";
+         width: 0.5rem;
+         height: 0.5rem;
+         @include border-radius(50%);
+         display: block;
+         position: absolute;
+         background-color: #f3f3f3;
+         bottom: -0.25rem;
+         left: -0.25rem;
+       }
+    }
+  }
+}
+.form-coupon{
+  width: 16rem;
+  margin-top:0.5rem;
+  font-family: "黑体";
+  padding-bottom: 3rem;
+  display: none;
+  .row{
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.875rem;
+    background-color: #FFFFFF;
+    height: 2.25rem;
+    line-height: 1.75rem;
+    color: #444444;
+    margin-bottom: 0.875rem;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    border-right:none;
+    position: relative;
+    .clear-btn{
+      width: 1.175rem;
+      height: 2.25rem;
+      position: absolute;
+      right: 0.5rem;
+      top: 0;
+      padding: 0.75rem 0.5rem;
+      &:before{
+        content:"";
+        width: 0.875rem;
+        height: 0.875rem;
+        display: block;
+        background: url("close.png") no-repeat center center transparent;
+        @include background-size(cover);
+      }
+    }
+    .refresh-btn{
+      width: 1.25rem;
+      height: 2.25rem;
+      padding:0.8rem 0.5rem;
+      position: absolute;
+      right: 1rem;
+      top: 0;
+      &:before{
+        content:"";
+        display: block;
+        width: 0.75rem;
+        height: 0.625rem;
+        background: url("refresh.png") no-repeat center center transparent;
+        @include background-size(cover);
+      }
+    }
+    input{
+      line-height: 1.5rem;
+      border: none;
+      margin-left: 0.4rem;
+      font-size: 0.75rem;
+      &[name=coupon_text]{
+        width: 10rem;
+      }
+      &[name=validate_num]{
+        width: 4.75rem;
+        border-right:1px solid #e6e6e6;
+      }
+    }
+    .validate_img{
+      margin: 0 0.25rem;
+      height: 1.6rem;;
+      width: 3.75rem;
+    }
+  }
+  .submit-btn{
+    width: 15rem;
+    height: 1.875rem;
+    font-size: 0.8rem;
+    margin: 0.125rem auto 0;
+    line-height: 1.875rem;
+    @include border-radius(0.25rem);
+    background-color: #e43232;
+    color: #FFFFFF;
+    text-align: center;
+  }
+}
+#coupon_tips{
+  background-color:#000000;
+  opacity: 0.8;
+  position: fixed;
+  font-size: 0.8rem;
+  width: 12.625rem;
+  min-height: 2rem;
+  line-height: 1.2rem;
+  padding: 0.4rem 0.5rem;
+  top: 50%;
+  left: 50%;
+  color: #FFFFFF;
+  text-align: center;
+  @include transform(translate(-50%,-50%));
+  z-index: 101;
+  &.success:before{
+    content:"";
+    width: 0.9rem;
+    height:0.9rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.25rem;
+    background: url("success.png") no-repeat center top transparent;
+    @include background-size(cover);
+  }
+  &.error:before{
+    content:"";
+    width: 0.9rem;
+    height:0.9rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.25rem;
+    background: url("error.png") no-repeat center top transparent;
+    @include background-size(cover);
+  }
+}

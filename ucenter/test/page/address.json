@@ -1,0 +1,68 @@
+
+{
+    "_Seo":{
+        "pageTitle":"address首页",
+        "keywords":"卡路里",
+        "description":"卡路里"
+    },
+    "jumpUrl":"http://m.kaluli.com/order/confirm/?id=271&skuId=690&num=1&address_id=173067",
+    "address": [{
+        "id": "180",
+        "hupu_uid": "21306089",
+        "hupu_username": "过往云烟最帅",
+        "name": "朱超",
+        "postcode": "445555",
+        "province": "4",
+        "city": "56",
+        "area": "550",
+        "mobile": "13861801111",
+        "phonesection": "",
+        "phonecode": "",
+        "phoneext": "",
+        "region": "福建 宁德 福鼎市",
+        "street": "成都市武侯区369号黑土花园",
+        "identity_number": "372930199210100012",
+        "defaultflag": "1",
+        "created_at": "2015-02-09 18:14:26",
+        "updated_at": "2015-05-16 14:24:04"
+    },{
+        "id": "579",
+        "hupu_uid": "21306089",
+        "hupu_username": "过往云烟最帅",
+        "name": "aaa",
+        "postcode": "233333",
+        "province": "18",
+        "city": "255",
+        "area": "2146",
+        "mobile": "15061852001",
+        "phonesection": "222",
+        "phonecode": "2222222",
+        "phoneext": "222",
+        "region": "辽宁 盘锦 兴隆台区 ",
+        "street": "aaa",
+        "identity_number": "372930199210100012",
+        "defaultflag": "0",
+        "created_at": "2015-07-09 10:50:05",
+        "updated_at": "2015-07-09 10:50:05"
+    },{
+        "id": "179",
+        "hupu_uid": "21306089",
+        "hupu_username": "过往云烟最帅",
+        "name": "梁天",
+        "postcode": "666666",
+        "province": "4",
+        "city": "55",
+        "area": "540",
+        "mobile": "15061852002",
+        "phonesection": "",
+        "phonecode": "",
+        "phoneext": "",
+        "region": "福建 南平 武夷山市",
+        "street": "成都市武侯区369号白云花园",
+        "identity_number": "372930199210100012",
+        "defaultflag": "0",
+        "created_at": "2015-02-09 14:27:04",
+        "updated_at": "2015-05-16 14:19:57"
+    }],
+    "defaultFlag": "180"
+}

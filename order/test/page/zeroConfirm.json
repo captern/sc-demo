@@ -1,0 +1,58 @@
+{
+  "address": {
+    "id": "180",
+    "hupu_uid": "21306089",
+    "hupu_username": "过往云烟最帅",
+    "name": "朱超",
+    "postcode": "445555",
+    "province": "4",
+    "city": "56",
+    "area": "550",
+    "mobile": "13861801111",
+    "phonesection": "",
+    "phonecode": "",
+    "phoneext": "",
+    "region": "福建 宁德 福鼎市",
+    "street": "成都市武侯区369号黑土花园",
+    "identity_number": "372930199210100012",
+    "defaultflag": "1",
+    "created_at": "2015-02-09 18:14:26",
+    "updated_at": "2015-07-23 15:57:36"
+  },
+  "item": {
+    "id": "616",
+    "number": "1",
+    "goods_id": "117",
+    "product_id": "56",
+    "price": "72.00",
+    "total_price": 72,
+    "img_path": "http://shihuo.hupucdn.com/uploads/kaluli/item/201506/0717/fc5784f062b673a0822827de42c143c9.jpg?imageView2/1/w/100/h/100",
+    "total_num": "38",
+    "title": "普丽普莱 蓝莓营养胶囊",
+    "storehouse_id": "10",
+    "weight": "1",
+    "attr": {
+      "attr": {
+        "规格": "375 mg*100粒"
+      }
+    },
+    "status": 0,
+    "stock_status": 0,
+    "ware": {
+      "id": "10",
+      "name": "香港仓",
+      "code": "",
+      "address": "",
+      "note": "",
+      "create_date": "0000-00-00 00:00:00",
+      "contact_name": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "type_name": "",
+      "area_name": "xg",
+      "freight_type": "2",
+      "created_at": "2015-12-08 14:42:51",
+      "updated_at": "2015-12-11 11:46:54"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.edit-address{
+     background-color: #FFFFFF;
+     padding-bottom:0.75rem;
+    .grid{
+        width: 100%;       
+        .checkbox{
+            input{
+                width: 0.5rem;
+                height: 0.5rem;
+                margin-right: 0.5rem;
+            }
+            width: 100%;
+            padding:0.5rem 0.75rem;
+            min-height: 2.125rem;
+            line-height: 1.12rem;
+            color: #999999;
+            font-size: 0.65rem;
+        }
+        label{
+            display: block;
+            width: 100%;
+            padding:0.5rem 0.75rem;
+            min-height: 2.125rem;
+            line-height: 1.12rem;
+            color: #999999;
+            font-size: 0.65rem;
+            border-bottom:1px solid #e5e5e5;
+            span{
+                width: 3.3rem;                
+                float: left;                
+            }
+            input,textarea,select{
+                color: #333333;
+                width: 11rem;
+                min-height: 1.15rem;
+                line-height: 1.15rem;
+                padding:0 0.25rem;
+                float: right;      
+                border:1px solid #e5e5e5;          
+            }
+        }
+    }
+    .btn{
+        width: 10rem;
+        height: 2rem;
+        margin: 0.75rem auto 0;
+        background-color: #db2735;
+        text-align:center;
+        line-height: 1.9rem;
+        color:#FFFFFF;
+        display: block;
+        font-size:0.9rem;
+    }
+}

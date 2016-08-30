@@ -1,0 +1,166 @@
+@import "../sass/sassCore/base";
+.ordertail{
+    width: 100%;
+    .grid{
+        margin-bottom: 0.5rem;
+        background-color: #FFFFFF;
+        border:1px solid #e5e5e5;
+        border-left:none;
+        border-right:none;
+        padding: 0 0.75rem;
+        width: 100%;
+        &:nth-child(1){
+            margin-top: 0.5rem;
+        }
+        &.content{
+            padding:0px;
+        }
+        .shipping-info{
+            border-bottom:1px solid #e5e5e5;
+            height: 3.875rem;
+            line-height: 2.87rem;
+            display: block;
+            width: 14.5rem;
+            margin: 0 auto;
+            color: #1b9fe4;
+            position: relative;
+            font-size: 0.6rem;
+            i{
+                font-style: normal;
+            }
+            &:before{
+                background-image: url(icon2.png);
+                @include background-size(contain);
+                width: 1.075rem;
+                height: 0.825rem;
+                display: inline-block;
+                vertical-align: middle;
+                content:"";
+            }
+            &:after{    
+                content: "";
+                display: block;
+                position: absolute;
+                background-image: url(icon4.png);
+                width: 0.4rem;
+                height: 0.7rem;
+                right: 0.25rem;
+                top: 50%;
+                margin-top: -0.35rem;
+                -webkit-background-size: contain;
+                background-size: contain;
+            }
+            p{
+                line-height:0.875rem; 
+                width: 9.75rem;
+                display: block;
+                position:absolute;
+                top: 0.6rem;
+                left: 3.5rem;
+                span{
+                    display: block;
+                    clear: both;
+                    &:nth-child(2){
+                        color: #999999;
+                        font-size: 0.55rem;
+                    }
+                }
+            }            
+        }
+    }
+    .top{       
+        .border-line{
+            padding:0.25rem 0;
+            position: relative;
+            clear: both;
+            width: 100%;
+            p{
+                line-height: 1rem;  
+                font-size: 0.6rem;            
+            }
+        }        
+        .address{
+            display: block;
+            position: relative;
+            width: 100%;
+            .user{
+               font-size: 0.7rem; 
+               line-height: 1.75rem;
+               .fn-fl{
+                    width: 50%;
+               }
+               .fn-fl:before{
+                    content:""; 
+                    display: inline-block;
+                    @include background-size(contain);
+                    margin-right:0.125rem;    
+                    margin-bottom: 0.2rem;
+                    vertical-align: middle;    
+               }
+               .username:before{                    
+                    background-image:url(user.png);
+                    width: 0.7rem;
+                    height: 0.675rem;                               
+               }
+               .usermobile:before{
+                    background-image:url(iphone.png); 
+                    width: 0.45rem;
+                    height: 0.625rem;
+               }               
+            }
+            &:after{
+                content:"";
+                display: block;
+                position: absolute;
+                background-image:url(icon4.png);
+                width: 0.4rem;
+                height: 0.7rem;
+                right: 0.25rem;
+                top: 50%;
+                margin-top: -0.35rem;
+                @include background-size(contain);
+            }
+            p{
+                width: 90%;
+                font-size: 0.6rem;
+                padding-bottom: 0.25rem;
+            }
+            p:last-child{
+                font-size: 0.55rem;
+            }
+        }
+    }
+    .border-line{
+        padding:0.25rem 0;
+        position: relative;
+        clear: both;
+        width: 100%;
+        border-bottom:1px solid #e5e5e5;
+    }
+    .redcolor{
+        color:#db2735;
+    }
+    .bottom{
+        .border-line{
+            line-height: 1.75rem;
+        }
+    }
+    .btn{
+        text-align: right;
+        a{
+            display: inline-block;
+            width: 4.5rem;
+            height: 1.625rem;
+            border:1px solid #8b8b8b;
+            border-radius:0.25rem;
+            margin: 0.5rem 0 0.5rem 0.5rem;  
+            text-align: center;
+            line-height:1.6rem;
+            &.redcolor{
+                border:1px solid #e50012;
+                background-color: #e50012;
+                color: #FFFFFF;     
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "data": {
+    "express_fee": 0,
+    "number": 1,
+    "price": "399.00",
+    "product_price": 399,
+    "shunfeng_freight": 30,
+    "stock": "35",
+    "total_price": 359.1,
+    "yuantong_freight": 15,
+    "activity": {
+      "coupon_fee": 0,
+      "list": [],
+      "marketing_list": {
+        "coupon_fee": 0,
+        "coupon_number": 0
+      }
+    },
+    "coupon_fee": 50
+  },
+  "msg": "ok"
+}

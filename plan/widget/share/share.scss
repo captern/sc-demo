@@ -1,0 +1,29 @@
+@import "/static/sass/sassCore/base";
+.share{
+  margin: pxToRem(20) 0 pxToRem(50) 0;
+  text-align: center;
+  .share-btn{
+    border: 1px solid #4fa03b;;
+    border-radius: pxToRem(60);
+    width: pxToRem(210);
+    height: pxToRem(60);
+    text-align: center;
+    font-size: pxToRem(22);
+    background-color: transparent;
+    color: #4fa03b;
+  }
+}
+.share-pop{
+  display: none;
+  position: absolute;
+  background: rgba(0,0,0,.63);
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  img{
+    float: right;
+    display: none;
+  }
+}

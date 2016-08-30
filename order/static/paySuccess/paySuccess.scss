@@ -1,0 +1,29 @@
+.pay-success{
+    width: 100%;
+    background-color: #FFFFFF;
+    .grid{
+        padding:0 0.75rem;
+        width: 100%;
+        border-top:1px solid #e5e5e5;      
+        a{
+            display: block;
+            margin:0.75rem 0 0.75rem 0.5rem;
+            width: 4.25rem;
+            height: 1.5rem;
+            border:1px solid #8b8b8b;
+            line-height: 1.45rem;
+            border-radius:0.25rem;
+            font-size: 0.7rem;
+            text-align: center;
+        }  
+    }
+    .price{
+        font-size: 0.65rem;
+        line-height: 1.5rem;
+        padding-top:1.5rem;
+        .fn-fr{
+            color:#e43232;
+        }
+    }
+
+}
